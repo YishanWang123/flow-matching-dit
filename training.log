@@ -1,0 +1,1335 @@
+2026-03-17 18:17:28,385 - utils - INFO - Starting training...
+2026-03-17 18:17:28,385 - utils - INFO - Configuration: TrainingConfig(model_dim=256, num_heads=8, num_layers=6, patch_size=4, num_classes=1000, latent_dim=4, num_steps=1000, sigma_min=0.002, sigma_max=80.0, batch_size=32, num_epochs=100, learning_rate=0.0001, weight_decay=0.0, warmup_steps=5000, eval_interval=1000, save_interval=5000, log_interval=100, image_size=32, data_path='./imagenet_subset', num_workers=4, wandb_project='my_project', wandb_entity=None, wandb_run_name=None, device='cuda', seed=42, checkpoint_dir='./checkpoints')
+2026-03-17 18:17:30,969 - utils - INFO - WandB initialized: my_project
+2026-03-17 18:17:30,970 - utils - INFO - Using synthetic dataset
+2026-03-17 18:17:30,970 - utils - INFO - Train loader: 312 batches
+2026-03-17 18:17:30,970 - utils - INFO - Val loader: 313 batches
+2026-03-17 18:17:31,280 - utils - INFO - Model has 5,167,920 trainable parameters
+2026-03-17 18:17:31,280 - utils - INFO - Total parameters: 5,167,920
+2026-03-17 18:17:31,281 - utils - INFO - Generating initial samples...
+2026-03-17 18:18:14,830 - utils - INFO - Starting training...
+2026-03-17 18:18:14,831 - utils - INFO - Configuration: TrainingConfig(model_dim=256, num_heads=8, num_layers=6, patch_size=4, num_classes=1000, latent_dim=4, num_steps=1000, sigma_min=0.002, sigma_max=80.0, batch_size=32, num_epochs=100, learning_rate=0.0001, weight_decay=0.0, warmup_steps=5000, eval_interval=1000, save_interval=5000, log_interval=100, image_size=32, data_path='./imagenet_subset', num_workers=4, wandb_project='my_project', wandb_entity=None, wandb_run_name=None, device='cuda', seed=42, checkpoint_dir='./checkpoints')
+2026-03-17 18:18:17,806 - utils - INFO - WandB initialized: my_project
+2026-03-17 18:18:17,806 - utils - INFO - Using synthetic dataset
+2026-03-17 18:18:17,807 - utils - INFO - Train loader: 312 batches
+2026-03-17 18:18:17,807 - utils - INFO - Val loader: 313 batches
+2026-03-17 18:18:17,990 - utils - INFO - Model has 5,167,920 trainable parameters
+2026-03-17 18:18:17,990 - utils - INFO - Total parameters: 5,167,920
+2026-03-17 18:18:17,991 - utils - INFO - Generating initial samples...
+2026-03-17 18:18:17,991 - utils - INFO - Generating 16 samples at step 0...
+2026-03-17 18:19:50,153 - utils - INFO - Starting training...
+2026-03-17 18:19:50,153 - utils - INFO - Configuration: TrainingConfig(model_dim=256, num_heads=8, num_layers=6, patch_size=4, num_classes=1000, latent_dim=4, num_steps=1000, sigma_min=0.002, sigma_max=80.0, batch_size=32, num_epochs=100, learning_rate=0.0001, weight_decay=0.0, warmup_steps=5000, eval_interval=1000, save_interval=5000, log_interval=100, image_size=32, data_path='./imagenet_subset', num_workers=4, wandb_project='my_project', wandb_entity=None, wandb_run_name=None, device='cuda', seed=42, checkpoint_dir='./checkpoints')
+2026-03-17 18:19:52,682 - utils - INFO - WandB initialized: my_project
+2026-03-17 18:19:52,682 - utils - INFO - Using synthetic dataset
+2026-03-17 18:19:52,683 - utils - INFO - Train loader: 312 batches
+2026-03-17 18:19:52,683 - utils - INFO - Val loader: 313 batches
+2026-03-17 18:19:52,903 - utils - INFO - Model has 5,167,920 trainable parameters
+2026-03-17 18:19:52,904 - utils - INFO - Total parameters: 5,167,920
+2026-03-17 18:19:52,904 - utils - INFO - Generating initial samples...
+2026-03-17 18:19:52,905 - utils - INFO - Generating 16 samples at step 0...
+2026-03-17 18:19:54,995 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_0.png
+2026-03-17 18:19:54,996 - utils - INFO - Starting training loop...
+2026-03-17 18:19:54,996 - utils - INFO - ==================================================
+2026-03-17 18:19:54,996 - utils - INFO - Epoch 0/100
+2026-03-17 18:19:55,483 - utils - INFO - Step 0: Loss = 3.583972, Avg Loss = 3.583972
+2026-03-17 18:19:56,932 - utils - INFO - Step 100: Loss = 2.207859, Avg Loss = 2.383093
+2026-03-17 18:19:58,327 - utils - INFO - Step 200: Loss = 2.113872, Avg Loss = 2.265448
+2026-03-17 18:19:59,727 - utils - INFO - Step 300: Loss = 2.082483, Avg Loss = 2.204292
+2026-03-17 18:19:59,883 - utils - INFO - Epoch 0 completed. Average loss: 2.199354
+2026-03-17 18:20:00,018 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_0.pt
+2026-03-17 18:20:00,019 - utils - INFO - Generating 16 samples at step 311...
+2026-03-17 18:20:00,191 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_311.png
+2026-03-17 18:20:00,192 - utils - INFO - ==================================================
+2026-03-17 18:20:00,192 - utils - INFO - Epoch 1/100
+2026-03-17 18:20:01,463 - utils - INFO - Step 400: Loss = 2.035413, Avg Loss = 2.047201
+2026-03-17 18:20:02,874 - utils - INFO - Step 500: Loss = 2.023603, Avg Loss = 2.039416
+2026-03-17 18:20:04,296 - utils - INFO - Step 600: Loss = 2.023034, Avg Loss = 2.033547
+2026-03-17 18:20:04,620 - utils - INFO - Epoch 1 completed. Average loss: 2.032638
+2026-03-17 18:20:04,750 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_1.pt
+2026-03-17 18:20:04,752 - utils - INFO - Generating 16 samples at step 623...
+2026-03-17 18:20:04,941 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_623.png
+2026-03-17 18:20:04,941 - utils - INFO - ==================================================
+2026-03-17 18:20:04,941 - utils - INFO - Epoch 2/100
+2026-03-17 18:20:06,020 - utils - INFO - Step 700: Loss = 2.011757, Avg Loss = 2.016865
+2026-03-17 18:20:07,461 - utils - INFO - Step 800: Loss = 2.009107, Avg Loss = 2.014431
+2026-03-17 18:20:08,930 - utils - INFO - Step 900: Loss = 2.000536, Avg Loss = 2.013071
+2026-03-17 18:20:09,424 - utils - INFO - Epoch 2 completed. Average loss: 2.012802
+2026-03-17 18:20:09,559 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_2.pt
+2026-03-17 18:20:09,563 - utils - INFO - Generating 16 samples at step 935...
+2026-03-17 18:20:09,775 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_935.png
+2026-03-17 18:20:09,776 - utils - INFO - ==================================================
+2026-03-17 18:20:09,776 - utils - INFO - Epoch 3/100
+2026-03-17 18:20:10,733 - utils - INFO - Step 1000: Loss = 1.988815, Avg Loss = 2.006363
+2026-03-17 18:20:10,733 - utils - INFO - Starting evaluation at step 1000
+2026-03-17 18:20:10,734 - utils - INFO - Running validation...
+2026-03-17 18:20:10,981 - utils - INFO - Validation - Step 1000: Loss = 2.007663
+2026-03-17 18:20:12,416 - utils - INFO - Step 1100: Loss = 2.001316, Avg Loss = 2.005789
+2026-03-17 18:20:13,905 - utils - INFO - Step 1200: Loss = 2.001720, Avg Loss = 2.005078
+2026-03-17 18:20:14,593 - utils - INFO - Epoch 3 completed. Average loss: 2.004962
+2026-03-17 18:20:14,731 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_3.pt
+2026-03-17 18:20:14,734 - utils - INFO - Generating 16 samples at step 1247...
+2026-03-17 18:20:14,915 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_1247.png
+2026-03-17 18:20:14,915 - utils - INFO - ==================================================
+2026-03-17 18:20:14,915 - utils - INFO - Epoch 4/100
+2026-03-17 18:20:15,692 - utils - INFO - Step 1300: Loss = 2.007634, Avg Loss = 2.005554
+2026-03-17 18:20:17,123 - utils - INFO - Step 1400: Loss = 1.997010, Avg Loss = 2.005008
+2026-03-17 18:20:18,569 - utils - INFO - Step 1500: Loss = 2.012777, Avg Loss = 2.004138
+2026-03-17 18:20:19,393 - utils - INFO - Epoch 4 completed. Average loss: 2.003675
+2026-03-17 18:20:19,528 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_4.pt
+2026-03-17 18:20:19,531 - utils - INFO - Generating 16 samples at step 1559...
+2026-03-17 18:20:19,711 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_1559.png
+2026-03-17 18:20:19,712 - utils - INFO - ==================================================
+2026-03-17 18:20:19,712 - utils - INFO - Epoch 5/100
+2026-03-17 18:20:20,297 - utils - INFO - Step 1600: Loss = 1.998334, Avg Loss = 2.005283
+2026-03-17 18:20:21,717 - utils - INFO - Step 1700: Loss = 1.999593, Avg Loss = 2.002752
+2026-03-17 18:20:23,166 - utils - INFO - Step 1800: Loss = 1.997230, Avg Loss = 2.001759
+2026-03-17 18:20:24,173 - utils - INFO - Epoch 5 completed. Average loss: 2.001942
+2026-03-17 18:20:24,305 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_5.pt
+2026-03-17 18:20:24,307 - utils - INFO - Generating 16 samples at step 1871...
+2026-03-17 18:20:24,484 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_1871.png
+2026-03-17 18:20:24,484 - utils - INFO - ==================================================
+2026-03-17 18:20:24,485 - utils - INFO - Epoch 6/100
+2026-03-17 18:20:24,895 - utils - INFO - Step 1900: Loss = 2.002566, Avg Loss = 2.002777
+2026-03-17 18:20:26,367 - utils - INFO - Step 2000: Loss = 1.996401, Avg Loss = 2.001128
+2026-03-17 18:20:26,368 - utils - INFO - Starting evaluation at step 2000
+2026-03-17 18:20:26,368 - utils - INFO - Running validation...
+2026-03-17 18:36:35,960 - utils - INFO - Starting training...
+2026-03-17 18:36:35,960 - utils - INFO - Configuration: TrainingConfig(model_dim=256, num_heads=8, num_layers=6, patch_size=4, num_classes=1000, latent_dim=4, num_steps=1000, sigma_min=0.002, sigma_max=80.0, batch_size=32, num_epochs=100, learning_rate=0.0001, weight_decay=0.0, warmup_steps=5000, eval_interval=1000, save_interval=5000, log_interval=100, image_size=32, data_path='./imagenet_subset', num_workers=4, wandb_project='my_project', wandb_entity=None, wandb_run_name=None, device='cuda', seed=42, checkpoint_dir='./checkpoints')
+2026-03-17 18:36:51,227 - utils - INFO - WandB initialized: my_project
+2026-03-17 18:36:51,227 - utils - INFO - Using synthetic dataset
+2026-03-17 18:36:51,228 - utils - INFO - Train loader: 312 batches
+2026-03-17 18:36:51,228 - utils - INFO - Val loader: 313 batches
+2026-03-17 18:36:51,417 - utils - INFO - Model has 5,167,920 trainable parameters
+2026-03-17 18:36:51,417 - utils - INFO - Total parameters: 5,167,920
+2026-03-17 18:36:51,418 - utils - INFO - Resuming from checkpoint: checkpoints/checkpoint_epoch_5.pt
+2026-03-17 18:36:51,527 - utils - INFO - Resumed from epoch 5, step 1871
+2026-03-17 18:36:51,527 - utils - INFO - Generating initial samples...
+2026-03-17 18:36:51,528 - utils - INFO - Generating 16 samples at step 0...
+2026-03-17 18:36:57,004 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_0.png
+2026-03-17 18:36:57,005 - utils - INFO - Starting training loop...
+2026-03-17 18:36:57,005 - utils - INFO - ==================================================
+2026-03-17 18:36:57,005 - utils - INFO - Epoch 5/100
+2026-03-17 18:36:57,833 - utils - INFO - Step 1600: Loss = 1.992781, Avg Loss = 2.001178
+2026-03-17 18:36:59,350 - utils - INFO - Step 1700: Loss = 2.010940, Avg Loss = 2.001199
+2026-03-17 18:37:00,934 - utils - INFO - Step 1800: Loss = 1.991245, Avg Loss = 2.001259
+2026-03-17 18:37:02,023 - utils - INFO - Epoch 5 completed. Average loss: 2.001604
+2026-03-17 18:37:02,153 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_5.pt
+2026-03-17 18:37:02,154 - utils - INFO - Generating 16 samples at step 1871...
+2026-03-17 18:37:02,324 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_1871.png
+2026-03-17 18:37:02,325 - utils - INFO - ==================================================
+2026-03-17 18:37:02,325 - utils - INFO - Epoch 6/100
+2026-03-17 18:37:02,771 - utils - INFO - Step 1900: Loss = 2.002920, Avg Loss = 1.999863
+2026-03-17 18:37:04,280 - utils - INFO - Step 2000: Loss = 1.994707, Avg Loss = 2.001456
+2026-03-17 18:37:04,280 - utils - INFO - Starting evaluation at step 2000
+2026-03-17 18:37:04,281 - utils - INFO - Running validation...
+2026-03-17 18:37:04,506 - utils - INFO - Validation - Step 2000: Loss = 2.000766
+2026-03-17 18:37:06,003 - utils - INFO - Step 2100: Loss = 2.005726, Avg Loss = 2.001268
+2026-03-17 18:37:07,235 - utils - INFO - Epoch 6 completed. Average loss: 2.001610
+2026-03-17 18:37:07,334 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_6.pt
+2026-03-17 18:37:07,336 - utils - INFO - Generating 16 samples at step 2183...
+2026-03-17 18:37:07,507 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_2183.png
+2026-03-17 18:37:07,508 - utils - INFO - ==================================================
+2026-03-17 18:37:07,508 - utils - INFO - Epoch 7/100
+2026-03-17 18:37:07,762 - utils - INFO - Step 2200: Loss = 2.005426, Avg Loss = 2.003452
+2026-03-17 18:37:09,276 - utils - INFO - Step 2300: Loss = 2.004357, Avg Loss = 2.001524
+2026-03-17 18:37:10,776 - utils - INFO - Step 2400: Loss = 2.010819, Avg Loss = 2.001759
+2026-03-17 18:37:12,208 - utils - INFO - Epoch 7 completed. Average loss: 2.001845
+2026-03-17 18:37:12,324 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_7.pt
+2026-03-17 18:37:12,326 - utils - INFO - Generating 16 samples at step 2495...
+2026-03-17 18:37:12,495 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_2495.png
+2026-03-17 18:37:12,496 - utils - INFO - ==================================================
+2026-03-17 18:37:12,496 - utils - INFO - Epoch 8/100
+2026-03-17 18:37:12,575 - utils - INFO - Step 2500: Loss = 1.993491, Avg Loss = 2.005426
+2026-03-17 18:37:14,072 - utils - INFO - Step 2600: Loss = 2.006371, Avg Loss = 2.000640
+2026-03-17 18:37:15,590 - utils - INFO - Step 2700: Loss = 2.016223, Avg Loss = 2.000748
+2026-03-17 18:37:17,117 - utils - INFO - Step 2800: Loss = 2.007889, Avg Loss = 2.000587
+2026-03-17 18:37:17,223 - utils - INFO - Epoch 8 completed. Average loss: 2.000572
+2026-03-17 18:37:17,321 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_8.pt
+2026-03-17 18:37:17,322 - utils - INFO - Generating 16 samples at step 2807...
+2026-03-17 18:37:17,491 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_2807.png
+2026-03-17 18:37:17,491 - utils - INFO - ==================================================
+2026-03-17 18:37:17,491 - utils - INFO - Epoch 9/100
+2026-03-17 18:37:18,923 - utils - INFO - Step 2900: Loss = 1.999341, Avg Loss = 2.002905
+2026-03-17 18:37:20,499 - utils - INFO - Step 3000: Loss = 1.997437, Avg Loss = 2.002289
+2026-03-17 18:37:20,500 - utils - INFO - Starting evaluation at step 3000
+2026-03-17 18:37:20,500 - utils - INFO - Running validation...
+2026-03-17 18:37:20,755 - utils - INFO - Validation - Step 3000: Loss = 2.000237
+2026-03-17 18:37:22,307 - utils - INFO - Step 3100: Loss = 2.022824, Avg Loss = 2.002041
+2026-03-17 18:37:22,609 - utils - INFO - Epoch 9 completed. Average loss: 2.002104
+2026-03-17 18:37:22,708 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_9.pt
+2026-03-17 18:37:22,709 - utils - INFO - Generating 16 samples at step 3119...
+2026-03-17 18:37:22,881 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_3119.png
+2026-03-17 18:37:22,881 - utils - INFO - ==================================================
+2026-03-17 18:37:22,882 - utils - INFO - Epoch 10/100
+2026-03-17 18:37:24,150 - utils - INFO - Step 3200: Loss = 2.015242, Avg Loss = 2.000440
+2026-03-17 18:37:25,711 - utils - INFO - Step 3300: Loss = 2.005692, Avg Loss = 1.999757
+2026-03-17 18:37:27,338 - utils - INFO - Step 3400: Loss = 1.998897, Avg Loss = 2.000564
+2026-03-17 18:37:27,848 - utils - INFO - Epoch 10 completed. Average loss: 2.000642
+2026-03-17 18:37:27,946 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_10.pt
+2026-03-17 18:37:27,948 - utils - INFO - Generating 16 samples at step 3431...
+2026-03-17 18:37:28,114 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_3431.png
+2026-03-17 18:37:28,115 - utils - INFO - ==================================================
+2026-03-17 18:37:28,115 - utils - INFO - Epoch 11/100
+2026-03-17 18:37:29,243 - utils - INFO - Step 3500: Loss = 1.991409, Avg Loss = 1.999986
+2026-03-17 18:37:30,867 - utils - INFO - Step 3600: Loss = 2.000311, Avg Loss = 2.001258
+2026-03-17 18:37:32,435 - utils - INFO - Step 3700: Loss = 2.001915, Avg Loss = 2.001249
+2026-03-17 18:37:33,092 - utils - INFO - Epoch 11 completed. Average loss: 2.001323
+2026-03-17 18:37:33,190 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_11.pt
+2026-03-17 18:37:33,191 - utils - INFO - Generating 16 samples at step 3743...
+2026-03-17 18:37:33,358 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_3743.png
+2026-03-17 18:37:33,359 - utils - INFO - ==================================================
+2026-03-17 18:37:33,359 - utils - INFO - Epoch 12/100
+2026-03-17 18:37:34,232 - utils - INFO - Step 3800: Loss = 2.010658, Avg Loss = 1.999648
+2026-03-17 18:37:35,822 - utils - INFO - Step 3900: Loss = 2.001188, Avg Loss = 2.001129
+2026-03-17 18:37:37,490 - utils - INFO - Step 4000: Loss = 1.995166, Avg Loss = 2.000957
+2026-03-17 18:37:37,490 - utils - INFO - Starting evaluation at step 4000
+2026-03-17 18:37:37,491 - utils - INFO - Running validation...
+2026-03-17 18:37:37,736 - utils - INFO - Validation - Step 4000: Loss = 2.000620
+2026-03-17 18:37:38,607 - utils - INFO - Epoch 12 completed. Average loss: 2.001117
+2026-03-17 18:37:38,714 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_12.pt
+2026-03-17 18:37:38,716 - utils - INFO - Generating 16 samples at step 4055...
+2026-03-17 18:37:38,905 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_4055.png
+2026-03-17 18:37:38,906 - utils - INFO - ==================================================
+2026-03-17 18:37:38,906 - utils - INFO - Epoch 13/100
+2026-03-17 18:37:39,651 - utils - INFO - Step 4100: Loss = 2.012046, Avg Loss = 2.000742
+2026-03-17 18:37:41,289 - utils - INFO - Step 4200: Loss = 2.001630, Avg Loss = 2.000540
+2026-03-17 18:37:42,861 - utils - INFO - Step 4300: Loss = 1.997485, Avg Loss = 2.001135
+2026-03-17 18:37:43,924 - utils - INFO - Epoch 13 completed. Average loss: 2.001265
+2026-03-17 18:37:44,021 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_13.pt
+2026-03-17 18:37:44,022 - utils - INFO - Generating 16 samples at step 4367...
+2026-03-17 18:37:44,189 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_4367.png
+2026-03-17 18:37:44,190 - utils - INFO - ==================================================
+2026-03-17 18:37:44,190 - utils - INFO - Epoch 14/100
+2026-03-17 18:37:44,706 - utils - INFO - Step 4400: Loss = 1.996020, Avg Loss = 2.001788
+2026-03-17 18:37:46,252 - utils - INFO - Step 4500: Loss = 1.994914, Avg Loss = 2.001722
+2026-03-17 18:37:47,796 - utils - INFO - Step 4600: Loss = 1.999135, Avg Loss = 2.001415
+2026-03-17 18:37:49,024 - utils - INFO - Epoch 14 completed. Average loss: 2.001325
+2026-03-17 18:37:49,126 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_14.pt
+2026-03-17 18:37:49,127 - utils - INFO - Generating 16 samples at step 4679...
+2026-03-17 18:37:49,305 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_4679.png
+2026-03-17 18:37:49,305 - utils - INFO - ==================================================
+2026-03-17 18:37:49,306 - utils - INFO - Epoch 15/100
+2026-03-17 18:37:49,636 - utils - INFO - Step 4700: Loss = 2.010249, Avg Loss = 2.001714
+2026-03-17 18:37:51,207 - utils - INFO - Step 4800: Loss = 1.998144, Avg Loss = 2.001001
+2026-03-17 18:37:52,829 - utils - INFO - Step 4900: Loss = 2.001613, Avg Loss = 2.001258
+2026-03-17 18:37:54,358 - utils - INFO - Epoch 15 completed. Average loss: 2.000729
+2026-03-17 18:37:54,458 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_15.pt
+2026-03-17 18:37:54,460 - utils - INFO - Generating 16 samples at step 4991...
+2026-03-17 18:37:54,631 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_4991.png
+2026-03-17 18:37:54,632 - utils - INFO - ==================================================
+2026-03-17 18:37:54,632 - utils - INFO - Epoch 16/100
+2026-03-17 18:37:54,777 - utils - INFO - Step 5000: Loss = 1.996479, Avg Loss = 1.999793
+2026-03-17 18:37:54,778 - utils - INFO - Starting evaluation at step 5000
+2026-03-17 18:37:54,778 - utils - INFO - Running validation...
+2026-03-17 18:37:55,037 - utils - INFO - Validation - Step 5000: Loss = 1.999642
+2026-03-17 18:37:55,154 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_step_5000.pt
+2026-03-17 18:37:57,378 - utils - INFO - Step 5100: Loss = 2.007622, Avg Loss = 1.999714
+2026-03-17 18:37:59,566 - utils - INFO - Step 5200: Loss = 1.992494, Avg Loss = 1.999391
+2026-03-17 18:38:01,803 - utils - INFO - Step 5300: Loss = 1.998677, Avg Loss = 1.998972
+2026-03-17 18:38:01,869 - utils - INFO - Epoch 16 completed. Average loss: 1.999062
+2026-03-17 18:38:01,967 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_16.pt
+2026-03-17 18:38:01,968 - utils - INFO - Generating 16 samples at step 5303...
+2026-03-17 18:38:02,135 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_5303.png
+2026-03-17 18:38:02,136 - utils - INFO - ==================================================
+2026-03-17 18:38:02,136 - utils - INFO - Epoch 17/100
+2026-03-17 18:38:04,340 - utils - INFO - Step 5400: Loss = 2.024447, Avg Loss = 1.998183
+2026-03-17 18:38:06,554 - utils - INFO - Step 5500: Loss = 1.986423, Avg Loss = 1.997739
+2026-03-17 18:38:08,713 - utils - INFO - Step 5600: Loss = 2.001016, Avg Loss = 1.997463
+2026-03-17 18:38:09,041 - utils - INFO - Epoch 17 completed. Average loss: 1.997338
+2026-03-17 18:38:09,138 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_17.pt
+2026-03-17 18:38:09,139 - utils - INFO - Generating 16 samples at step 5615...
+2026-03-17 18:38:09,305 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_5615.png
+2026-03-17 18:38:09,305 - utils - INFO - ==================================================
+2026-03-17 18:38:09,305 - utils - INFO - Epoch 18/100
+2026-03-17 18:38:11,156 - utils - INFO - Step 5700: Loss = 1.992402, Avg Loss = 1.996577
+2026-03-17 18:38:13,378 - utils - INFO - Step 5800: Loss = 1.983872, Avg Loss = 1.995569
+2026-03-17 18:38:15,650 - utils - INFO - Step 5900: Loss = 1.996246, Avg Loss = 1.995343
+2026-03-17 18:38:16,265 - utils - INFO - Epoch 18 completed. Average loss: 1.995322
+2026-03-17 18:38:16,363 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_18.pt
+2026-03-17 18:38:16,365 - utils - INFO - Generating 16 samples at step 5927...
+2026-03-17 18:38:16,532 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_5927.png
+2026-03-17 18:38:16,533 - utils - INFO - ==================================================
+2026-03-17 18:38:16,533 - utils - INFO - Epoch 19/100
+2026-03-17 18:38:18,201 - utils - INFO - Step 6000: Loss = 1.989527, Avg Loss = 1.996563
+2026-03-17 18:38:18,202 - utils - INFO - Starting evaluation at step 6000
+2026-03-17 18:38:18,202 - utils - INFO - Running validation...
+2026-03-17 18:38:18,456 - utils - INFO - Validation - Step 6000: Loss = 1.994276
+2026-03-17 18:38:20,743 - utils - INFO - Step 6100: Loss = 1.984091, Avg Loss = 1.996594
+2026-03-17 18:38:23,005 - utils - INFO - Step 6200: Loss = 2.001548, Avg Loss = 1.996117
+2026-03-17 18:38:23,871 - utils - INFO - Epoch 19 completed. Average loss: 1.995568
+2026-03-17 18:38:23,974 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_19.pt
+2026-03-17 18:38:23,976 - utils - INFO - Generating 16 samples at step 6239...
+2026-03-17 18:38:24,153 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_6239.png
+2026-03-17 18:38:24,154 - utils - INFO - ==================================================
+2026-03-17 18:38:24,154 - utils - INFO - Epoch 20/100
+2026-03-17 18:38:25,557 - utils - INFO - Step 6300: Loss = 1.996018, Avg Loss = 1.997211
+2026-03-17 18:38:27,909 - utils - INFO - Step 6400: Loss = 1.989109, Avg Loss = 1.994321
+2026-03-17 18:38:30,224 - utils - INFO - Step 6500: Loss = 2.009648, Avg Loss = 1.994158
+2026-03-17 18:38:31,379 - utils - INFO - Epoch 20 completed. Average loss: 1.994334
+2026-03-17 18:38:31,479 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_20.pt
+2026-03-17 18:38:31,480 - utils - INFO - Generating 16 samples at step 6551...
+2026-03-17 18:38:31,649 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_6551.png
+2026-03-17 18:38:31,649 - utils - INFO - ==================================================
+2026-03-17 18:38:31,649 - utils - INFO - Epoch 21/100
+2026-03-17 18:38:32,745 - utils - INFO - Step 6600: Loss = 1.996266, Avg Loss = 1.995863
+2026-03-17 18:38:35,069 - utils - INFO - Step 6700: Loss = 1.975100, Avg Loss = 1.994176
+2026-03-17 18:38:37,418 - utils - INFO - Step 6800: Loss = 1.991031, Avg Loss = 1.993654
+2026-03-17 18:38:38,862 - utils - INFO - Epoch 21 completed. Average loss: 1.993821
+2026-03-17 18:38:38,961 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_21.pt
+2026-03-17 18:38:38,963 - utils - INFO - Generating 16 samples at step 6863...
+2026-03-17 18:38:39,131 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_6863.png
+2026-03-17 18:38:39,131 - utils - INFO - ==================================================
+2026-03-17 18:38:39,132 - utils - INFO - Epoch 22/100
+2026-03-17 18:38:39,960 - utils - INFO - Step 6900: Loss = 1.991993, Avg Loss = 1.995536
+2026-03-17 18:38:42,181 - utils - INFO - Step 7000: Loss = 1.995999, Avg Loss = 1.995069
+2026-03-17 18:38:42,182 - utils - INFO - Starting evaluation at step 7000
+2026-03-17 18:38:42,182 - utils - INFO - Running validation...
+2026-03-17 18:38:42,412 - utils - INFO - Validation - Step 7000: Loss = 1.994492
+2026-03-17 18:38:44,640 - utils - INFO - Step 7100: Loss = 1.994982, Avg Loss = 1.994143
+2026-03-17 18:38:46,310 - utils - INFO - Epoch 22 completed. Average loss: 1.994156
+2026-03-17 18:38:46,410 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_22.pt
+2026-03-17 18:38:46,411 - utils - INFO - Generating 16 samples at step 7175...
+2026-03-17 18:38:46,586 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_7175.png
+2026-03-17 18:38:46,587 - utils - INFO - ==================================================
+2026-03-17 18:38:46,587 - utils - INFO - Epoch 23/100
+2026-03-17 18:38:47,149 - utils - INFO - Step 7200: Loss = 1.996777, Avg Loss = 1.989405
+2026-03-17 18:38:49,427 - utils - INFO - Step 7300: Loss = 1.993274, Avg Loss = 1.992167
+2026-03-17 18:38:51,967 - utils - INFO - Step 7400: Loss = 2.009356, Avg Loss = 1.991439
+2026-03-17 18:38:53,980 - utils - INFO - Epoch 23 completed. Average loss: 1.991308
+2026-03-17 18:38:54,078 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_23.pt
+2026-03-17 18:38:54,079 - utils - INFO - Generating 16 samples at step 7487...
+2026-03-17 18:38:54,246 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_7487.png
+2026-03-17 18:38:54,247 - utils - INFO - ==================================================
+2026-03-17 18:38:54,247 - utils - INFO - Epoch 24/100
+2026-03-17 18:38:54,541 - utils - INFO - Step 7500: Loss = 1.997752, Avg Loss = 1.991760
+2026-03-17 18:41:15,469 - utils - INFO - Starting training...
+2026-03-17 18:41:15,469 - utils - INFO - Configuration: TrainingConfig(model_dim=256, num_heads=8, num_layers=6, patch_size=4, num_classes=1000, latent_dim=4, num_steps=1000, sigma_min=0.002, sigma_max=80.0, batch_size=32, num_epochs=100, learning_rate=0.0001, weight_decay=0.0, warmup_steps=5000, eval_interval=1000, save_interval=5000, log_interval=100, image_size=32, data_path='./imagenet_subset', num_workers=4, wandb_project='flow-matching-dit-cifar10', wandb_entity=None, wandb_run_name=None, device='cuda', seed=42, checkpoint_dir='./checkpoints')
+2026-03-17 18:41:21,843 - utils - INFO - WandB initialized: flow-matching-dit-cifar10
+2026-03-17 18:41:21,843 - utils - INFO - Using CIFAR-10 dataset (real small dataset)
+2026-03-17 18:43:44,018 - utils - INFO - Train loader: 312 batches
+2026-03-17 18:43:44,019 - utils - INFO - Val loader: 32 batches
+2026-03-17 18:43:44,197 - utils - INFO - Model has 4,914,480 trainable parameters
+2026-03-17 18:43:44,198 - utils - INFO - Total parameters: 4,914,480
+2026-03-17 18:43:44,198 - utils - INFO - Generating initial samples...
+2026-03-17 18:43:44,199 - utils - INFO - Generating 16 samples at step 0...
+2026-03-17 18:43:48,194 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_0.png
+2026-03-17 18:43:48,194 - utils - INFO - Starting training loop...
+2026-03-17 18:43:48,194 - utils - INFO - ==================================================
+2026-03-17 18:43:48,194 - utils - INFO - Epoch 0/100
+2026-03-17 18:43:48,563 - utils - INFO - Step 0: Loss = 2.483193, Avg Loss = 2.483193
+2026-03-17 18:43:50,064 - utils - INFO - Step 100: Loss = 1.373928, Avg Loss = 1.515625
+2026-03-17 18:43:51,555 - utils - INFO - Step 200: Loss = 1.265672, Avg Loss = 1.415029
+2026-03-17 18:43:52,971 - utils - INFO - Step 300: Loss = 1.222979, Avg Loss = 1.361971
+2026-03-17 18:43:53,144 - utils - INFO - Epoch 0 completed. Average loss: 1.357347
+2026-03-17 18:43:53,275 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_0.pt
+2026-03-17 18:43:53,277 - utils - INFO - Generating 16 samples at step 311...
+2026-03-17 18:43:53,448 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_311.png
+2026-03-17 18:43:53,449 - utils - INFO - ==================================================
+2026-03-17 18:43:53,449 - utils - INFO - Epoch 1/100
+2026-03-17 18:43:54,932 - utils - INFO - Step 400: Loss = 1.216253, Avg Loss = 1.221383
+2026-03-17 18:43:56,485 - utils - INFO - Step 500: Loss = 1.211348, Avg Loss = 1.211006
+2026-03-17 18:43:58,006 - utils - INFO - Step 600: Loss = 1.183975, Avg Loss = 1.203994
+2026-03-17 18:43:58,357 - utils - INFO - Epoch 1 completed. Average loss: 1.202987
+2026-03-17 18:43:58,489 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_1.pt
+2026-03-17 18:43:58,491 - utils - INFO - Generating 16 samples at step 623...
+2026-03-17 18:43:58,668 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_623.png
+2026-03-17 18:43:58,668 - utils - INFO - ==================================================
+2026-03-17 18:43:58,669 - utils - INFO - Epoch 2/100
+2026-03-17 18:43:59,910 - utils - INFO - Step 700: Loss = 1.192072, Avg Loss = 1.182859
+2026-03-17 18:44:01,403 - utils - INFO - Step 800: Loss = 1.155689, Avg Loss = 1.179859
+2026-03-17 18:44:02,977 - utils - INFO - Step 900: Loss = 1.153229, Avg Loss = 1.176659
+2026-03-17 18:44:03,528 - utils - INFO - Epoch 2 completed. Average loss: 1.175952
+2026-03-17 18:44:03,655 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_2.pt
+2026-03-17 18:44:03,657 - utils - INFO - Generating 16 samples at step 935...
+2026-03-17 18:44:03,827 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_935.png
+2026-03-17 18:44:03,828 - utils - INFO - ==================================================
+2026-03-17 18:44:03,828 - utils - INFO - Epoch 3/100
+2026-03-17 18:44:04,909 - utils - INFO - Step 1000: Loss = 1.171667, Avg Loss = 1.169250
+2026-03-17 18:44:04,910 - utils - INFO - Starting evaluation at step 1000
+2026-03-17 18:44:04,911 - utils - INFO - Running validation...
+2026-03-17 18:44:05,278 - utils - INFO - Validation - Step 1000: Loss = 1.165361
+2026-03-17 18:44:06,759 - utils - INFO - Step 1100: Loss = 1.145843, Avg Loss = 1.168513
+2026-03-17 18:44:08,234 - utils - INFO - Step 1200: Loss = 1.172936, Avg Loss = 1.167675
+2026-03-17 18:44:08,952 - utils - INFO - Epoch 3 completed. Average loss: 1.166449
+2026-03-17 18:44:09,085 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_3.pt
+2026-03-17 18:44:09,087 - utils - INFO - Generating 16 samples at step 1247...
+2026-03-17 18:44:09,259 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_1247.png
+2026-03-17 18:44:09,260 - utils - INFO - ==================================================
+2026-03-17 18:44:09,260 - utils - INFO - Epoch 4/100
+2026-03-17 18:44:10,132 - utils - INFO - Step 1300: Loss = 1.172965, Avg Loss = 1.161771
+2026-03-17 18:44:11,549 - utils - INFO - Step 1400: Loss = 1.154670, Avg Loss = 1.160911
+2026-03-17 18:44:13,011 - utils - INFO - Step 1500: Loss = 1.155723, Avg Loss = 1.160084
+2026-03-17 18:44:13,843 - utils - INFO - Epoch 4 completed. Average loss: 1.160015
+2026-03-17 18:44:13,974 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_4.pt
+2026-03-17 18:44:13,975 - utils - INFO - Generating 16 samples at step 1559...
+2026-03-17 18:44:14,169 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_1559.png
+2026-03-17 18:44:14,170 - utils - INFO - ==================================================
+2026-03-17 18:44:14,170 - utils - INFO - Epoch 5/100
+2026-03-17 18:44:14,853 - utils - INFO - Step 1600: Loss = 1.129836, Avg Loss = 1.157344
+2026-03-17 18:44:16,267 - utils - INFO - Step 1700: Loss = 1.165107, Avg Loss = 1.157635
+2026-03-17 18:44:17,691 - utils - INFO - Step 1800: Loss = 1.140642, Avg Loss = 1.156260
+2026-03-17 18:44:18,759 - utils - INFO - Epoch 5 completed. Average loss: 1.155791
+2026-03-17 18:44:18,896 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_5.pt
+2026-03-17 18:44:18,898 - utils - INFO - Generating 16 samples at step 1871...
+2026-03-17 18:44:19,102 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_1871.png
+2026-03-17 18:44:19,103 - utils - INFO - ==================================================
+2026-03-17 18:44:19,104 - utils - INFO - Epoch 6/100
+2026-03-17 18:44:19,638 - utils - INFO - Step 1900: Loss = 1.172521, Avg Loss = 1.157552
+2026-03-17 18:44:21,044 - utils - INFO - Step 2000: Loss = 1.146376, Avg Loss = 1.155020
+2026-03-17 18:44:21,044 - utils - INFO - Starting evaluation at step 2000
+2026-03-17 18:44:21,045 - utils - INFO - Running validation...
+2026-03-17 18:44:21,408 - utils - INFO - Validation - Step 2000: Loss = 1.153680
+2026-03-17 18:44:22,879 - utils - INFO - Step 2100: Loss = 1.164901, Avg Loss = 1.153436
+2026-03-17 18:44:24,123 - utils - INFO - Epoch 6 completed. Average loss: 1.153317
+2026-03-17 18:44:24,265 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_6.pt
+2026-03-17 18:44:24,267 - utils - INFO - Generating 16 samples at step 2183...
+2026-03-17 18:44:24,440 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_2183.png
+2026-03-17 18:44:24,441 - utils - INFO - ==================================================
+2026-03-17 18:44:24,441 - utils - INFO - Epoch 7/100
+2026-03-17 18:44:24,835 - utils - INFO - Step 2200: Loss = 1.147951, Avg Loss = 1.142918
+2026-03-17 18:44:26,377 - utils - INFO - Step 2300: Loss = 1.156979, Avg Loss = 1.149721
+2026-03-17 18:44:27,999 - utils - INFO - Step 2400: Loss = 1.192795, Avg Loss = 1.152136
+2026-03-17 18:44:29,463 - utils - INFO - Epoch 7 completed. Average loss: 1.150665
+2026-03-17 18:44:29,609 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_7.pt
+2026-03-17 18:44:29,611 - utils - INFO - Generating 16 samples at step 2495...
+2026-03-17 18:44:29,784 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_2495.png
+2026-03-17 18:44:29,784 - utils - INFO - ==================================================
+2026-03-17 18:44:29,785 - utils - INFO - Epoch 8/100
+2026-03-17 18:44:29,960 - utils - INFO - Step 2500: Loss = 1.129932, Avg Loss = 1.147964
+2026-03-17 18:44:31,456 - utils - INFO - Step 2600: Loss = 1.181815, Avg Loss = 1.149865
+2026-03-17 18:44:32,972 - utils - INFO - Step 2700: Loss = 1.140266, Avg Loss = 1.150259
+2026-03-17 18:44:34,373 - utils - INFO - Step 2800: Loss = 1.125920, Avg Loss = 1.149536
+2026-03-17 18:44:34,496 - utils - INFO - Epoch 8 completed. Average loss: 1.149316
+2026-03-17 18:44:34,623 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_8.pt
+2026-03-17 18:44:34,625 - utils - INFO - Generating 16 samples at step 2807...
+2026-03-17 18:44:34,795 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_2807.png
+2026-03-17 18:44:34,795 - utils - INFO - ==================================================
+2026-03-17 18:44:34,795 - utils - INFO - Epoch 9/100
+2026-03-17 18:44:36,227 - utils - INFO - Step 2900: Loss = 1.126132, Avg Loss = 1.148448
+2026-03-17 18:44:37,658 - utils - INFO - Step 3000: Loss = 1.132122, Avg Loss = 1.147521
+2026-03-17 18:44:37,659 - utils - INFO - Starting evaluation at step 3000
+2026-03-17 18:44:37,660 - utils - INFO - Running validation...
+2026-03-17 18:44:38,025 - utils - INFO - Validation - Step 3000: Loss = 1.145391
+2026-03-17 18:44:39,473 - utils - INFO - Step 3100: Loss = 1.136824, Avg Loss = 1.146759
+2026-03-17 18:44:39,752 - utils - INFO - Epoch 9 completed. Average loss: 1.146942
+2026-03-17 18:44:39,896 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_9.pt
+2026-03-17 18:44:39,898 - utils - INFO - Generating 16 samples at step 3119...
+2026-03-17 18:44:40,068 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_3119.png
+2026-03-17 18:44:40,068 - utils - INFO - ==================================================
+2026-03-17 18:44:40,068 - utils - INFO - Epoch 10/100
+2026-03-17 18:44:41,310 - utils - INFO - Step 3200: Loss = 1.127683, Avg Loss = 1.143883
+2026-03-17 18:44:42,683 - utils - INFO - Step 3300: Loss = 1.139623, Avg Loss = 1.144313
+2026-03-17 18:44:44,102 - utils - INFO - Step 3400: Loss = 1.141526, Avg Loss = 1.144528
+2026-03-17 18:44:44,549 - utils - INFO - Epoch 10 completed. Average loss: 1.144931
+2026-03-17 18:44:44,682 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_10.pt
+2026-03-17 18:44:44,684 - utils - INFO - Generating 16 samples at step 3431...
+2026-03-17 18:44:44,852 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_3431.png
+2026-03-17 18:44:44,852 - utils - INFO - ==================================================
+2026-03-17 18:44:44,853 - utils - INFO - Epoch 11/100
+2026-03-17 18:44:45,896 - utils - INFO - Step 3500: Loss = 1.140853, Avg Loss = 1.140585
+2026-03-17 18:44:47,331 - utils - INFO - Step 3600: Loss = 1.128144, Avg Loss = 1.144538
+2026-03-17 18:44:48,800 - utils - INFO - Step 3700: Loss = 1.130784, Avg Loss = 1.144179
+2026-03-17 18:44:49,437 - utils - INFO - Epoch 11 completed. Average loss: 1.144072
+2026-03-17 18:44:49,586 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_11.pt
+2026-03-17 18:44:49,588 - utils - INFO - Generating 16 samples at step 3743...
+2026-03-17 18:44:49,773 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_3743.png
+2026-03-17 18:44:49,774 - utils - INFO - ==================================================
+2026-03-17 18:44:49,774 - utils - INFO - Epoch 12/100
+2026-03-17 18:44:50,700 - utils - INFO - Step 3800: Loss = 1.127893, Avg Loss = 1.140369
+2026-03-17 18:44:52,129 - utils - INFO - Step 3900: Loss = 1.141411, Avg Loss = 1.140492
+2026-03-17 18:44:53,614 - utils - INFO - Step 4000: Loss = 1.156118, Avg Loss = 1.140700
+2026-03-17 18:44:53,615 - utils - INFO - Starting evaluation at step 4000
+2026-03-17 18:44:53,616 - utils - INFO - Running validation...
+2026-03-17 18:44:53,971 - utils - INFO - Validation - Step 4000: Loss = 1.140212
+2026-03-17 18:44:54,857 - utils - INFO - Epoch 12 completed. Average loss: 1.140868
+2026-03-17 18:44:55,002 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_12.pt
+2026-03-17 18:44:55,004 - utils - INFO - Generating 16 samples at step 4055...
+2026-03-17 18:44:55,179 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_4055.png
+2026-03-17 18:44:55,179 - utils - INFO - ==================================================
+2026-03-17 18:44:55,179 - utils - INFO - Epoch 13/100
+2026-03-17 18:44:55,973 - utils - INFO - Step 4100: Loss = 1.124650, Avg Loss = 1.138933
+2026-03-17 18:44:57,494 - utils - INFO - Step 4200: Loss = 1.150712, Avg Loss = 1.139316
+2026-03-17 18:44:58,969 - utils - INFO - Step 4300: Loss = 1.149926, Avg Loss = 1.138743
+2026-03-17 18:44:59,954 - utils - INFO - Epoch 13 completed. Average loss: 1.138388
+2026-03-17 18:45:00,078 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_13.pt
+2026-03-17 18:45:00,080 - utils - INFO - Generating 16 samples at step 4367...
+2026-03-17 18:45:00,247 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_4367.png
+2026-03-17 18:45:00,248 - utils - INFO - ==================================================
+2026-03-17 18:45:00,248 - utils - INFO - Epoch 14/100
+2026-03-17 18:45:00,833 - utils - INFO - Step 4400: Loss = 1.140790, Avg Loss = 1.131115
+2026-03-17 18:45:02,427 - utils - INFO - Step 4500: Loss = 1.125963, Avg Loss = 1.132603
+2026-03-17 18:45:03,902 - utils - INFO - Step 4600: Loss = 1.155966, Avg Loss = 1.133030
+2026-03-17 18:45:05,120 - utils - INFO - Epoch 14 completed. Average loss: 1.133289
+2026-03-17 18:45:05,259 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_14.pt
+2026-03-17 18:45:05,261 - utils - INFO - Generating 16 samples at step 4679...
+2026-03-17 18:45:05,449 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_4679.png
+2026-03-17 18:45:05,450 - utils - INFO - ==================================================
+2026-03-17 18:45:05,450 - utils - INFO - Epoch 15/100
+2026-03-17 18:45:05,893 - utils - INFO - Step 4700: Loss = 1.127734, Avg Loss = 1.133413
+2026-03-17 18:45:07,378 - utils - INFO - Step 4800: Loss = 1.109121, Avg Loss = 1.131597
+2026-03-17 18:45:08,816 - utils - INFO - Step 4900: Loss = 1.135588, Avg Loss = 1.129468
+2026-03-17 18:45:10,165 - utils - INFO - Epoch 15 completed. Average loss: 1.128058
+2026-03-17 18:45:10,291 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_15.pt
+2026-03-17 18:45:10,293 - utils - INFO - Generating 16 samples at step 4991...
+2026-03-17 18:45:10,462 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_4991.png
+2026-03-17 18:45:10,463 - utils - INFO - ==================================================
+2026-03-17 18:45:10,463 - utils - INFO - Epoch 16/100
+2026-03-17 18:45:10,717 - utils - INFO - Step 5000: Loss = 1.098302, Avg Loss = 1.120423
+2026-03-17 18:45:10,718 - utils - INFO - Starting evaluation at step 5000
+2026-03-17 18:45:10,719 - utils - INFO - Running validation...
+2026-03-17 18:45:11,075 - utils - INFO - Validation - Step 5000: Loss = 1.125553
+2026-03-17 18:45:11,201 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_step_5000.pt
+2026-03-17 18:45:13,375 - utils - INFO - Step 5100: Loss = 1.101417, Avg Loss = 1.123938
+2026-03-17 18:45:15,528 - utils - INFO - Step 5200: Loss = 1.120174, Avg Loss = 1.122623
+2026-03-17 18:45:17,573 - utils - INFO - Step 5300: Loss = 1.115245, Avg Loss = 1.120559
+2026-03-17 18:45:17,656 - utils - INFO - Epoch 16 completed. Average loss: 1.120298
+2026-03-17 18:45:17,783 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_16.pt
+2026-03-17 18:45:17,785 - utils - INFO - Generating 16 samples at step 5303...
+2026-03-17 18:45:17,956 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_5303.png
+2026-03-17 18:45:17,957 - utils - INFO - ==================================================
+2026-03-17 18:45:17,957 - utils - INFO - Epoch 17/100
+2026-03-17 18:45:20,102 - utils - INFO - Step 5400: Loss = 1.119007, Avg Loss = 1.113756
+2026-03-17 18:45:22,144 - utils - INFO - Step 5500: Loss = 1.107173, Avg Loss = 1.112152
+2026-03-17 18:45:24,201 - utils - INFO - Step 5600: Loss = 1.097600, Avg Loss = 1.110191
+2026-03-17 18:45:24,533 - utils - INFO - Epoch 17 completed. Average loss: 1.109821
+2026-03-17 18:45:24,664 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_17.pt
+2026-03-17 18:45:24,666 - utils - INFO - Generating 16 samples at step 5615...
+2026-03-17 18:45:24,849 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_5615.png
+2026-03-17 18:45:24,850 - utils - INFO - ==================================================
+2026-03-17 18:45:24,850 - utils - INFO - Epoch 18/100
+2026-03-17 18:45:26,752 - utils - INFO - Step 5700: Loss = 1.110664, Avg Loss = 1.104886
+2026-03-17 18:45:28,857 - utils - INFO - Step 5800: Loss = 1.118644, Avg Loss = 1.103705
+2026-03-17 18:45:30,947 - utils - INFO - Step 5900: Loss = 1.100343, Avg Loss = 1.101712
+2026-03-17 18:45:31,523 - utils - INFO - Epoch 18 completed. Average loss: 1.101395
+2026-03-17 18:45:31,669 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_18.pt
+2026-03-17 18:45:31,671 - utils - INFO - Generating 16 samples at step 5927...
+2026-03-17 18:45:31,841 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_5927.png
+2026-03-17 18:45:31,841 - utils - INFO - ==================================================
+2026-03-17 18:45:31,842 - utils - INFO - Epoch 19/100
+2026-03-17 18:45:33,522 - utils - INFO - Step 6000: Loss = 1.079186, Avg Loss = 1.093577
+2026-03-17 18:45:33,524 - utils - INFO - Starting evaluation at step 6000
+2026-03-17 18:45:33,525 - utils - INFO - Running validation...
+2026-03-17 18:45:33,900 - utils - INFO - Validation - Step 6000: Loss = 1.088389
+2026-03-17 18:45:35,965 - utils - INFO - Step 6100: Loss = 1.071811, Avg Loss = 1.092253
+2026-03-17 18:45:38,189 - utils - INFO - Step 6200: Loss = 1.066077, Avg Loss = 1.089254
+2026-03-17 18:45:39,021 - utils - INFO - Epoch 19 completed. Average loss: 1.087725
+2026-03-17 18:45:39,147 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_19.pt
+2026-03-17 18:45:39,149 - utils - INFO - Generating 16 samples at step 6239...
+2026-03-17 18:45:39,317 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_6239.png
+2026-03-17 18:45:39,318 - utils - INFO - ==================================================
+2026-03-17 18:45:39,318 - utils - INFO - Epoch 20/100
+2026-03-17 18:45:40,701 - utils - INFO - Step 6300: Loss = 1.084151, Avg Loss = 1.079078
+2026-03-17 18:45:42,768 - utils - INFO - Step 6400: Loss = 1.073912, Avg Loss = 1.071437
+2026-03-17 18:45:44,847 - utils - INFO - Step 6500: Loss = 1.051789, Avg Loss = 1.065968
+2026-03-17 18:45:45,922 - utils - INFO - Epoch 20 completed. Average loss: 1.063801
+2026-03-17 18:45:46,048 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_20.pt
+2026-03-17 18:45:46,050 - utils - INFO - Generating 16 samples at step 6551...
+2026-03-17 18:45:46,231 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_6551.png
+2026-03-17 18:45:46,232 - utils - INFO - ==================================================
+2026-03-17 18:45:46,232 - utils - INFO - Epoch 21/100
+2026-03-17 18:45:47,517 - utils - INFO - Step 6600: Loss = 1.043060, Avg Loss = 1.046070
+2026-03-17 18:45:49,651 - utils - INFO - Step 6700: Loss = 1.021891, Avg Loss = 1.037894
+2026-03-17 18:45:51,777 - utils - INFO - Step 6800: Loss = 1.012367, Avg Loss = 1.031894
+2026-03-17 18:45:53,175 - utils - INFO - Epoch 21 completed. Average loss: 1.027529
+2026-03-17 18:45:53,284 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_21.pt
+2026-03-17 18:45:53,285 - utils - INFO - Generating 16 samples at step 6863...
+2026-03-17 18:45:53,454 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_6863.png
+2026-03-17 18:45:53,454 - utils - INFO - ==================================================
+2026-03-17 18:45:53,455 - utils - INFO - Epoch 22/100
+2026-03-17 18:45:54,315 - utils - INFO - Step 6900: Loss = 1.021316, Avg Loss = 1.006044
+2026-03-17 18:45:56,422 - utils - INFO - Step 7000: Loss = 1.013238, Avg Loss = 0.995581
+2026-03-17 18:45:56,423 - utils - INFO - Starting evaluation at step 7000
+2026-03-17 18:45:56,424 - utils - INFO - Running validation...
+2026-03-17 18:45:56,777 - utils - INFO - Validation - Step 7000: Loss = 0.988504
+2026-03-17 18:45:58,912 - utils - INFO - Step 7100: Loss = 0.947098, Avg Loss = 0.986150
+2026-03-17 18:46:00,438 - utils - INFO - Epoch 22 completed. Average loss: 0.976492
+2026-03-17 18:46:00,581 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_22.pt
+2026-03-17 18:46:00,582 - utils - INFO - Generating 16 samples at step 7175...
+2026-03-17 18:46:00,764 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_7175.png
+2026-03-17 18:46:00,764 - utils - INFO - ==================================================
+2026-03-17 18:46:00,764 - utils - INFO - Epoch 23/100
+2026-03-17 18:46:01,377 - utils - INFO - Step 7200: Loss = 0.938757, Avg Loss = 0.932988
+2026-03-17 18:46:03,559 - utils - INFO - Step 7300: Loss = 0.913556, Avg Loss = 0.924838
+2026-03-17 18:46:05,705 - utils - INFO - Step 7400: Loss = 0.897070, Avg Loss = 0.908298
+2026-03-17 18:46:07,557 - utils - INFO - Epoch 23 completed. Average loss: 0.894818
+2026-03-17 18:46:07,682 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_23.pt
+2026-03-17 18:46:07,684 - utils - INFO - Generating 16 samples at step 7487...
+2026-03-17 18:46:07,853 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_7487.png
+2026-03-17 18:46:07,853 - utils - INFO - ==================================================
+2026-03-17 18:46:07,854 - utils - INFO - Epoch 24/100
+2026-03-17 18:46:08,221 - utils - INFO - Step 7500: Loss = 0.860556, Avg Loss = 0.847036
+2026-03-17 18:46:10,282 - utils - INFO - Step 7600: Loss = 0.803316, Avg Loss = 0.836486
+2026-03-17 18:46:12,365 - utils - INFO - Step 7700: Loss = 0.776270, Avg Loss = 0.823396
+2026-03-17 18:46:14,477 - utils - INFO - Epoch 24 completed. Average loss: 0.811224
+2026-03-17 18:46:14,590 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_24.pt
+2026-03-17 18:46:14,592 - utils - INFO - Generating 16 samples at step 7799...
+2026-03-17 18:46:14,762 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_7799.png
+2026-03-17 18:46:14,762 - utils - INFO - ==================================================
+2026-03-17 18:46:14,762 - utils - INFO - Epoch 25/100
+2026-03-17 18:46:14,890 - utils - INFO - Step 7800: Loss = 0.788742, Avg Loss = 0.788742
+2026-03-17 18:46:16,920 - utils - INFO - Step 7900: Loss = 0.725024, Avg Loss = 0.758929
+2026-03-17 18:46:19,039 - utils - INFO - Step 8000: Loss = 0.713653, Avg Loss = 0.746513
+2026-03-17 18:46:19,040 - utils - INFO - Starting evaluation at step 8000
+2026-03-17 18:46:19,041 - utils - INFO - Running validation...
+2026-03-17 18:46:19,414 - utils - INFO - Validation - Step 8000: Loss = 0.717519
+2026-03-17 18:46:21,601 - utils - INFO - Step 8100: Loss = 0.699374, Avg Loss = 0.735272
+2026-03-17 18:46:21,862 - utils - INFO - Epoch 25 completed. Average loss: 0.734193
+2026-03-17 18:46:21,964 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_25.pt
+2026-03-17 18:46:21,966 - utils - INFO - Generating 16 samples at step 8111...
+2026-03-17 18:46:22,133 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_8111.png
+2026-03-17 18:46:22,134 - utils - INFO - ==================================================
+2026-03-17 18:46:22,134 - utils - INFO - Epoch 26/100
+2026-03-17 18:46:24,219 - utils - INFO - Step 8200: Loss = 0.678272, Avg Loss = 0.692182
+2026-03-17 18:46:26,328 - utils - INFO - Step 8300: Loss = 0.668376, Avg Loss = 0.681206
+2026-03-17 18:46:28,499 - utils - INFO - Step 8400: Loss = 0.641786, Avg Loss = 0.671801
+2026-03-17 18:46:28,994 - utils - INFO - Epoch 26 completed. Average loss: 0.669553
+2026-03-17 18:46:29,088 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_26.pt
+2026-03-17 18:46:29,090 - utils - INFO - Generating 16 samples at step 8423...
+2026-03-17 18:46:29,254 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_8423.png
+2026-03-17 18:46:29,254 - utils - INFO - ==================================================
+2026-03-17 18:46:29,255 - utils - INFO - Epoch 27/100
+2026-03-17 18:46:30,926 - utils - INFO - Step 8500: Loss = 0.618431, Avg Loss = 0.632275
+2026-03-17 18:46:33,062 - utils - INFO - Step 8600: Loss = 0.610546, Avg Loss = 0.626597
+2026-03-17 18:46:35,128 - utils - INFO - Step 8700: Loss = 0.587414, Avg Loss = 0.617957
+2026-03-17 18:46:35,880 - utils - INFO - Epoch 27 completed. Average loss: 0.615529
+2026-03-17 18:46:35,974 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_27.pt
+2026-03-17 18:46:35,976 - utils - INFO - Generating 16 samples at step 8735...
+2026-03-17 18:46:36,141 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_8735.png
+2026-03-17 18:46:36,142 - utils - INFO - ==================================================
+2026-03-17 18:46:36,142 - utils - INFO - Epoch 28/100
+2026-03-17 18:46:37,556 - utils - INFO - Step 8800: Loss = 0.570188, Avg Loss = 0.591097
+2026-03-17 18:46:39,558 - utils - INFO - Step 8900: Loss = 0.577586, Avg Loss = 0.584766
+2026-03-17 18:46:41,578 - utils - INFO - Step 9000: Loss = 0.537208, Avg Loss = 0.574296
+2026-03-17 18:46:41,578 - utils - INFO - Starting evaluation at step 9000
+2026-03-17 18:46:41,579 - utils - INFO - Running validation...
+2026-03-17 18:46:41,942 - utils - INFO - Validation - Step 9000: Loss = 0.544053
+2026-03-17 18:46:42,936 - utils - INFO - Epoch 28 completed. Average loss: 0.570917
+2026-03-17 18:46:43,030 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_28.pt
+2026-03-17 18:46:43,032 - utils - INFO - Generating 16 samples at step 9047...
+2026-03-17 18:46:43,197 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_9047.png
+2026-03-17 18:46:43,198 - utils - INFO - ==================================================
+2026-03-17 18:46:43,198 - utils - INFO - Epoch 29/100
+2026-03-17 18:46:44,381 - utils - INFO - Step 9100: Loss = 0.566888, Avg Loss = 0.544554
+2026-03-17 18:46:46,418 - utils - INFO - Step 9200: Loss = 0.532045, Avg Loss = 0.536038
+2026-03-17 18:46:48,487 - utils - INFO - Step 9300: Loss = 0.501086, Avg Loss = 0.529787
+2026-03-17 18:46:49,754 - utils - INFO - Epoch 29 completed. Average loss: 0.524803
+2026-03-17 18:46:49,854 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_29.pt
+2026-03-17 18:46:49,856 - utils - INFO - Generating 16 samples at step 9359...
+2026-03-17 18:46:50,029 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_9359.png
+2026-03-17 18:46:50,030 - utils - INFO - ==================================================
+2026-03-17 18:46:50,030 - utils - INFO - Epoch 30/100
+2026-03-17 18:46:51,037 - utils - INFO - Step 9400: Loss = 0.484971, Avg Loss = 0.499425
+2026-03-17 18:46:53,172 - utils - INFO - Step 9500: Loss = 0.462453, Avg Loss = 0.485295
+2026-03-17 18:46:55,228 - utils - INFO - Step 9600: Loss = 0.476634, Avg Loss = 0.479578
+2026-03-17 18:46:56,679 - utils - INFO - Epoch 30 completed. Average loss: 0.476661
+2026-03-17 18:46:56,774 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_30.pt
+2026-03-17 18:46:56,776 - utils - INFO - Generating 16 samples at step 9671...
+2026-03-17 18:46:56,945 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_9671.png
+2026-03-17 18:46:56,946 - utils - INFO - ==================================================
+2026-03-17 18:46:56,946 - utils - INFO - Epoch 31/100
+2026-03-17 18:46:57,687 - utils - INFO - Step 9700: Loss = 0.467480, Avg Loss = 0.452927
+2026-03-17 18:46:59,820 - utils - INFO - Step 9800: Loss = 0.411980, Avg Loss = 0.445095
+2026-03-17 18:47:01,874 - utils - INFO - Step 9900: Loss = 0.417495, Avg Loss = 0.439019
+2026-03-17 18:47:03,593 - utils - INFO - Epoch 31 completed. Average loss: 0.434497
+2026-03-17 18:47:03,686 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_31.pt
+2026-03-17 18:47:03,688 - utils - INFO - Generating 16 samples at step 9983...
+2026-03-17 18:47:03,853 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_9983.png
+2026-03-17 18:47:03,854 - utils - INFO - ==================================================
+2026-03-17 18:47:03,854 - utils - INFO - Epoch 32/100
+2026-03-17 18:47:04,305 - utils - INFO - Step 10000: Loss = 0.474542, Avg Loss = 0.418936
+2026-03-17 18:47:04,306 - utils - INFO - Starting evaluation at step 10000
+2026-03-17 18:47:04,307 - utils - INFO - Running validation...
+2026-03-17 18:47:04,687 - utils - INFO - Validation - Step 10000: Loss = 0.419411
+2026-03-17 18:47:04,785 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_step_10000.pt
+2026-03-17 18:47:06,866 - utils - INFO - Step 10100: Loss = 0.392301, Avg Loss = 0.412111
+2026-03-17 18:47:08,992 - utils - INFO - Step 10200: Loss = 0.361749, Avg Loss = 0.403479
+2026-03-17 18:47:10,982 - utils - INFO - Epoch 32 completed. Average loss: 0.401335
+2026-03-17 18:47:11,086 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_32.pt
+2026-03-17 18:47:11,088 - utils - INFO - Generating 16 samples at step 10295...
+2026-03-17 18:47:11,287 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_10295.png
+2026-03-17 18:47:11,288 - utils - INFO - ==================================================
+2026-03-17 18:47:11,288 - utils - INFO - Epoch 33/100
+2026-03-17 18:47:11,498 - utils - INFO - Step 10300: Loss = 0.403027, Avg Loss = 0.399372
+2026-03-17 18:47:13,550 - utils - INFO - Step 10400: Loss = 0.390779, Avg Loss = 0.385076
+2026-03-17 18:47:15,608 - utils - INFO - Step 10500: Loss = 0.370250, Avg Loss = 0.381908
+2026-03-17 18:47:17,623 - utils - INFO - Step 10600: Loss = 0.316937, Avg Loss = 0.375849
+2026-03-17 18:47:17,781 - utils - INFO - Epoch 33 completed. Average loss: 0.375643
+2026-03-17 18:47:17,875 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_33.pt
+2026-03-17 18:47:17,877 - utils - INFO - Generating 16 samples at step 10607...
+2026-03-17 18:47:18,042 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_10607.png
+2026-03-17 18:47:18,042 - utils - INFO - ==================================================
+2026-03-17 18:47:18,043 - utils - INFO - Epoch 34/100
+2026-03-17 18:47:20,036 - utils - INFO - Step 10700: Loss = 0.364612, Avg Loss = 0.357930
+2026-03-17 18:47:22,094 - utils - INFO - Step 10800: Loss = 0.346955, Avg Loss = 0.358639
+2026-03-17 18:47:24,151 - utils - INFO - Step 10900: Loss = 0.338857, Avg Loss = 0.355830
+2026-03-17 18:47:24,570 - utils - INFO - Epoch 34 completed. Average loss: 0.354718
+2026-03-17 18:47:24,687 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_34.pt
+2026-03-17 18:47:24,689 - utils - INFO - Generating 16 samples at step 10919...
+2026-03-17 18:47:24,858 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_10919.png
+2026-03-17 18:47:24,858 - utils - INFO - ==================================================
+2026-03-17 18:47:24,859 - utils - INFO - Epoch 35/100
+2026-03-17 18:47:26,714 - utils - INFO - Step 11000: Loss = 0.367334, Avg Loss = 0.350723
+2026-03-17 18:47:26,715 - utils - INFO - Starting evaluation at step 11000
+2026-03-17 18:47:26,716 - utils - INFO - Running validation...
+2026-03-17 18:47:27,068 - utils - INFO - Validation - Step 11000: Loss = 0.348248
+2026-03-17 18:47:29,196 - utils - INFO - Step 11100: Loss = 0.324269, Avg Loss = 0.347248
+2026-03-17 18:47:31,327 - utils - INFO - Step 11200: Loss = 0.336556, Avg Loss = 0.343843
+2026-03-17 18:47:31,994 - utils - INFO - Epoch 35 completed. Average loss: 0.342433
+2026-03-17 18:47:32,090 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_35.pt
+2026-03-17 18:47:32,092 - utils - INFO - Generating 16 samples at step 11231...
+2026-03-17 18:47:32,259 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_11231.png
+2026-03-17 18:47:32,260 - utils - INFO - ==================================================
+2026-03-17 18:47:32,260 - utils - INFO - Epoch 36/100
+2026-03-17 18:47:33,846 - utils - INFO - Step 11300: Loss = 0.331590, Avg Loss = 0.326776
+2026-03-17 18:47:35,938 - utils - INFO - Step 11400: Loss = 0.326948, Avg Loss = 0.330995
+2026-03-17 18:47:38,058 - utils - INFO - Step 11500: Loss = 0.323869, Avg Loss = 0.330411
+2026-03-17 18:47:39,011 - utils - INFO - Epoch 36 completed. Average loss: 0.329466
+2026-03-17 18:47:39,107 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_36.pt
+2026-03-17 18:47:39,108 - utils - INFO - Generating 16 samples at step 11543...
+2026-03-17 18:47:39,276 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_11543.png
+2026-03-17 18:47:39,276 - utils - INFO - ==================================================
+2026-03-17 18:47:39,276 - utils - INFO - Epoch 37/100
+2026-03-17 18:47:40,617 - utils - INFO - Step 11600: Loss = 0.327381, Avg Loss = 0.326437
+2026-03-17 18:47:42,874 - utils - INFO - Step 11700: Loss = 0.319609, Avg Loss = 0.321083
+2026-03-17 18:47:44,955 - utils - INFO - Step 11800: Loss = 0.281429, Avg Loss = 0.318843
+2026-03-17 18:47:46,100 - utils - INFO - Epoch 37 completed. Average loss: 0.317457
+2026-03-17 18:47:46,195 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_37.pt
+2026-03-17 18:47:46,196 - utils - INFO - Generating 16 samples at step 11855...
+2026-03-17 18:47:46,360 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_11855.png
+2026-03-17 18:47:46,360 - utils - INFO - ==================================================
+2026-03-17 18:47:46,361 - utils - INFO - Epoch 38/100
+2026-03-17 18:47:47,384 - utils - INFO - Step 11900: Loss = 0.307973, Avg Loss = 0.314498
+2026-03-17 18:47:49,401 - utils - INFO - Step 12000: Loss = 0.270701, Avg Loss = 0.312820
+2026-03-17 18:47:49,402 - utils - INFO - Starting evaluation at step 12000
+2026-03-17 18:47:49,403 - utils - INFO - Running validation...
+2026-03-17 18:47:49,749 - utils - INFO - Validation - Step 12000: Loss = 0.311158
+2026-03-17 18:47:51,938 - utils - INFO - Step 12100: Loss = 0.325964, Avg Loss = 0.312293
+2026-03-17 18:47:53,392 - utils - INFO - Epoch 38 completed. Average loss: 0.311715
+2026-03-17 18:47:53,492 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_38.pt
+2026-03-17 18:47:53,494 - utils - INFO - Generating 16 samples at step 12167...
+2026-03-17 18:47:53,676 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_12167.png
+2026-03-17 18:47:53,677 - utils - INFO - ==================================================
+2026-03-17 18:47:53,677 - utils - INFO - Epoch 39/100
+2026-03-17 18:47:54,493 - utils - INFO - Step 12200: Loss = 0.279216, Avg Loss = 0.309522
+2026-03-17 18:47:56,676 - utils - INFO - Step 12300: Loss = 0.297261, Avg Loss = 0.305168
+2026-03-17 18:47:58,823 - utils - INFO - Step 12400: Loss = 0.350715, Avg Loss = 0.302487
+2026-03-17 18:48:00,468 - utils - INFO - Epoch 39 completed. Average loss: 0.300839
+2026-03-17 18:48:00,560 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_39.pt
+2026-03-17 18:48:00,562 - utils - INFO - Generating 16 samples at step 12479...
+2026-03-17 18:48:00,726 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_12479.png
+2026-03-17 18:48:00,727 - utils - INFO - ==================================================
+2026-03-17 18:48:00,727 - utils - INFO - Epoch 40/100
+2026-03-17 18:48:01,298 - utils - INFO - Step 12500: Loss = 0.358859, Avg Loss = 0.313211
+2026-03-17 18:48:03,367 - utils - INFO - Step 12600: Loss = 0.305785, Avg Loss = 0.305322
+2026-03-17 18:48:05,493 - utils - INFO - Step 12700: Loss = 0.327499, Avg Loss = 0.301187
+2026-03-17 18:48:07,434 - utils - INFO - Epoch 40 completed. Average loss: 0.301053
+2026-03-17 18:48:07,560 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_40.pt
+2026-03-17 18:48:07,562 - utils - INFO - Generating 16 samples at step 12791...
+2026-03-17 18:48:07,758 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_12791.png
+2026-03-17 18:48:07,759 - utils - INFO - ==================================================
+2026-03-17 18:48:07,759 - utils - INFO - Epoch 41/100
+2026-03-17 18:48:08,079 - utils - INFO - Step 12800: Loss = 0.302811, Avg Loss = 0.307626
+2026-03-17 18:48:10,184 - utils - INFO - Step 12900: Loss = 0.320460, Avg Loss = 0.298357
+2026-03-17 18:48:12,321 - utils - INFO - Step 13000: Loss = 0.258775, Avg Loss = 0.298506
+2026-03-17 18:48:12,322 - utils - INFO - Starting evaluation at step 13000
+2026-03-17 18:48:12,322 - utils - INFO - Running validation...
+2026-03-17 18:48:12,662 - utils - INFO - Validation - Step 13000: Loss = 0.296395
+2026-03-17 18:48:14,724 - utils - INFO - Step 13100: Loss = 0.309673, Avg Loss = 0.297209
+2026-03-17 18:48:14,818 - utils - INFO - Epoch 41 completed. Average loss: 0.297145
+2026-03-17 18:48:14,911 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_41.pt
+2026-03-17 18:48:14,913 - utils - INFO - Generating 16 samples at step 13103...
+2026-03-17 18:48:15,081 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_13103.png
+2026-03-17 18:48:15,082 - utils - INFO - ==================================================
+2026-03-17 18:48:15,082 - utils - INFO - Epoch 42/100
+2026-03-17 18:48:17,221 - utils - INFO - Step 13200: Loss = 0.304082, Avg Loss = 0.294817
+2026-03-17 18:48:19,291 - utils - INFO - Step 13300: Loss = 0.358292, Avg Loss = 0.294431
+2026-03-17 18:48:21,378 - utils - INFO - Step 13400: Loss = 0.249468, Avg Loss = 0.292356
+2026-03-17 18:48:21,722 - utils - INFO - Epoch 42 completed. Average loss: 0.292430
+2026-03-17 18:48:21,816 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_42.pt
+2026-03-17 18:48:21,818 - utils - INFO - Generating 16 samples at step 13415...
+2026-03-17 18:48:21,985 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_13415.png
+2026-03-17 18:48:21,986 - utils - INFO - ==================================================
+2026-03-17 18:48:21,986 - utils - INFO - Epoch 43/100
+2026-03-17 18:48:23,927 - utils - INFO - Step 13500: Loss = 0.294725, Avg Loss = 0.285491
+2026-03-17 18:48:26,103 - utils - INFO - Step 13600: Loss = 0.262011, Avg Loss = 0.287759
+2026-03-17 18:48:28,220 - utils - INFO - Step 13700: Loss = 0.284362, Avg Loss = 0.285694
+2026-03-17 18:48:28,821 - utils - INFO - Epoch 43 completed. Average loss: 0.285699
+2026-03-17 18:48:28,915 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_43.pt
+2026-03-17 18:48:28,916 - utils - INFO - Generating 16 samples at step 13727...
+2026-03-17 18:48:29,083 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_13727.png
+2026-03-17 18:48:29,084 - utils - INFO - ==================================================
+2026-03-17 18:48:29,084 - utils - INFO - Epoch 44/100
+2026-03-17 18:48:30,781 - utils - INFO - Step 13800: Loss = 0.299304, Avg Loss = 0.284347
+2026-03-17 18:48:32,984 - utils - INFO - Step 13900: Loss = 0.234922, Avg Loss = 0.280474
+2026-03-17 18:48:35,178 - utils - INFO - Step 14000: Loss = 0.260095, Avg Loss = 0.279949
+2026-03-17 18:48:35,178 - utils - INFO - Starting evaluation at step 14000
+2026-03-17 18:48:35,179 - utils - INFO - Running validation...
+2026-03-17 18:48:35,552 - utils - INFO - Validation - Step 14000: Loss = 0.280853
+2026-03-17 18:48:36,370 - utils - INFO - Epoch 44 completed. Average loss: 0.280306
+2026-03-17 18:48:36,463 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_44.pt
+2026-03-17 18:48:36,465 - utils - INFO - Generating 16 samples at step 14039...
+2026-03-17 18:48:36,636 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_14039.png
+2026-03-17 18:48:36,637 - utils - INFO - ==================================================
+2026-03-17 18:48:36,637 - utils - INFO - Epoch 45/100
+2026-03-17 18:48:38,055 - utils - INFO - Step 14100: Loss = 0.283217, Avg Loss = 0.279653
+2026-03-17 18:48:40,115 - utils - INFO - Step 14200: Loss = 0.359541, Avg Loss = 0.283735
+2026-03-17 18:48:42,153 - utils - INFO - Step 14300: Loss = 0.281327, Avg Loss = 0.283960
+2026-03-17 18:48:43,251 - utils - INFO - Epoch 45 completed. Average loss: 0.282918
+2026-03-17 18:48:43,354 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_45.pt
+2026-03-17 18:48:43,356 - utils - INFO - Generating 16 samples at step 14351...
+2026-03-17 18:48:43,535 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_14351.png
+2026-03-17 18:48:43,535 - utils - INFO - ==================================================
+2026-03-17 18:48:43,536 - utils - INFO - Epoch 46/100
+2026-03-17 18:48:44,642 - utils - INFO - Step 14400: Loss = 0.268032, Avg Loss = 0.280578
+2026-03-17 18:48:46,680 - utils - INFO - Step 14500: Loss = 0.248098, Avg Loss = 0.282405
+2026-03-17 18:48:48,704 - utils - INFO - Step 14600: Loss = 0.223198, Avg Loss = 0.278706
+2026-03-17 18:48:50,044 - utils - INFO - Epoch 46 completed. Average loss: 0.279201
+2026-03-17 18:48:50,172 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_46.pt
+2026-03-17 18:48:50,174 - utils - INFO - Generating 16 samples at step 14663...
+2026-03-17 18:48:50,346 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_14663.png
+2026-03-17 18:48:50,347 - utils - INFO - ==================================================
+2026-03-17 18:48:50,347 - utils - INFO - Epoch 47/100
+2026-03-17 18:48:51,257 - utils - INFO - Step 14700: Loss = 0.244600, Avg Loss = 0.267629
+2026-03-17 18:48:53,402 - utils - INFO - Step 14800: Loss = 0.221259, Avg Loss = 0.273248
+2026-03-17 18:48:55,429 - utils - INFO - Step 14900: Loss = 0.305391, Avg Loss = 0.276415
+2026-03-17 18:48:56,992 - utils - INFO - Epoch 47 completed. Average loss: 0.276924
+2026-03-17 18:48:57,098 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_47.pt
+2026-03-17 18:48:57,100 - utils - INFO - Generating 16 samples at step 14975...
+2026-03-17 18:48:57,269 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_14975.png
+2026-03-17 18:48:57,270 - utils - INFO - ==================================================
+2026-03-17 18:48:57,270 - utils - INFO - Epoch 48/100
+2026-03-17 18:48:57,876 - utils - INFO - Step 15000: Loss = 0.293311, Avg Loss = 0.271742
+2026-03-17 18:48:57,877 - utils - INFO - Starting evaluation at step 15000
+2026-03-17 18:48:57,878 - utils - INFO - Running validation...
+2026-03-17 18:48:58,292 - utils - INFO - Validation - Step 15000: Loss = 0.274416
+2026-03-17 18:48:58,424 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_step_15000.pt
+2026-03-17 18:49:00,456 - utils - INFO - Step 15100: Loss = 0.295540, Avg Loss = 0.274408
+2026-03-17 18:49:02,501 - utils - INFO - Step 15200: Loss = 0.282635, Avg Loss = 0.273032
+2026-03-17 18:49:04,413 - utils - INFO - Epoch 48 completed. Average loss: 0.271780
+2026-03-17 18:49:04,509 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_48.pt
+2026-03-17 18:49:04,510 - utils - INFO - Generating 16 samples at step 15287...
+2026-03-17 18:49:04,680 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_15287.png
+2026-03-17 18:49:04,680 - utils - INFO - ==================================================
+2026-03-17 18:49:04,681 - utils - INFO - Epoch 49/100
+2026-03-17 18:49:05,084 - utils - INFO - Step 15300: Loss = 0.260550, Avg Loss = 0.262208
+2026-03-17 18:49:07,257 - utils - INFO - Step 15400: Loss = 0.288635, Avg Loss = 0.270829
+2026-03-17 18:49:09,481 - utils - INFO - Step 15500: Loss = 0.283399, Avg Loss = 0.269467
+2026-03-17 18:49:11,640 - utils - INFO - Epoch 49 completed. Average loss: 0.271240
+2026-03-17 18:49:11,734 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_49.pt
+2026-03-17 18:49:11,736 - utils - INFO - Generating 16 samples at step 15599...
+2026-03-17 18:49:11,905 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_15599.png
+2026-03-17 18:49:11,905 - utils - INFO - ==================================================
+2026-03-17 18:49:11,905 - utils - INFO - Epoch 50/100
+2026-03-17 18:49:12,031 - utils - INFO - Step 15600: Loss = 0.235682, Avg Loss = 0.235682
+2026-03-17 18:49:14,222 - utils - INFO - Step 15700: Loss = 0.284438, Avg Loss = 0.273368
+2026-03-17 18:49:16,471 - utils - INFO - Step 15800: Loss = 0.252734, Avg Loss = 0.269946
+2026-03-17 18:49:18,671 - utils - INFO - Step 15900: Loss = 0.285537, Avg Loss = 0.270113
+2026-03-17 18:49:18,929 - utils - INFO - Epoch 50 completed. Average loss: 0.269951
+2026-03-17 18:49:19,030 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_50.pt
+2026-03-17 18:49:19,032 - utils - INFO - Generating 16 samples at step 15911...
+2026-03-17 18:49:19,227 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_15911.png
+2026-03-17 18:49:19,227 - utils - INFO - ==================================================
+2026-03-17 18:49:19,228 - utils - INFO - Epoch 51/100
+2026-03-17 18:49:21,350 - utils - INFO - Step 16000: Loss = 0.246985, Avg Loss = 0.268988
+2026-03-17 18:49:21,351 - utils - INFO - Starting evaluation at step 16000
+2026-03-17 18:49:21,352 - utils - INFO - Running validation...
+2026-03-17 18:49:21,742 - utils - INFO - Validation - Step 16000: Loss = 0.272647
+2026-03-17 18:49:24,033 - utils - INFO - Step 16100: Loss = 0.244265, Avg Loss = 0.270638
+2026-03-17 18:49:26,112 - utils - INFO - Step 16200: Loss = 0.306716, Avg Loss = 0.271039
+2026-03-17 18:49:26,593 - utils - INFO - Epoch 51 completed. Average loss: 0.270406
+2026-03-17 18:49:26,688 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_51.pt
+2026-03-17 18:49:26,690 - utils - INFO - Generating 16 samples at step 16223...
+2026-03-17 18:49:26,858 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_16223.png
+2026-03-17 18:49:26,858 - utils - INFO - ==================================================
+2026-03-17 18:49:26,859 - utils - INFO - Epoch 52/100
+2026-03-17 18:49:28,588 - utils - INFO - Step 16300: Loss = 0.239732, Avg Loss = 0.264902
+2026-03-17 18:49:30,795 - utils - INFO - Step 16400: Loss = 0.325477, Avg Loss = 0.265243
+2026-03-17 18:49:32,891 - utils - INFO - Step 16500: Loss = 0.268637, Avg Loss = 0.264943
+2026-03-17 18:49:33,620 - utils - INFO - Epoch 52 completed. Average loss: 0.264861
+2026-03-17 18:49:33,731 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_52.pt
+2026-03-17 18:49:33,733 - utils - INFO - Generating 16 samples at step 16535...
+2026-03-17 18:49:33,898 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_16535.png
+2026-03-17 18:49:33,898 - utils - INFO - ==================================================
+2026-03-17 18:49:33,899 - utils - INFO - Epoch 53/100
+2026-03-17 18:49:35,353 - utils - INFO - Step 16600: Loss = 0.258322, Avg Loss = 0.263768
+2026-03-17 18:49:37,390 - utils - INFO - Step 16700: Loss = 0.290149, Avg Loss = 0.264212
+2026-03-17 18:49:39,518 - utils - INFO - Step 16800: Loss = 0.310559, Avg Loss = 0.265921
+2026-03-17 18:49:40,477 - utils - INFO - Epoch 53 completed. Average loss: 0.265750
+2026-03-17 18:49:40,571 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_53.pt
+2026-03-17 18:49:40,573 - utils - INFO - Generating 16 samples at step 16847...
+2026-03-17 18:49:40,740 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_16847.png
+2026-03-17 18:49:40,740 - utils - INFO - ==================================================
+2026-03-17 18:49:40,740 - utils - INFO - Epoch 54/100
+2026-03-17 18:49:41,931 - utils - INFO - Step 16900: Loss = 0.255734, Avg Loss = 0.265666
+2026-03-17 18:49:44,022 - utils - INFO - Step 17000: Loss = 0.248847, Avg Loss = 0.267489
+2026-03-17 18:49:44,023 - utils - INFO - Starting evaluation at step 17000
+2026-03-17 18:49:44,024 - utils - INFO - Running validation...
+2026-03-17 18:49:44,380 - utils - INFO - Validation - Step 17000: Loss = 0.268653
+2026-03-17 18:49:46,485 - utils - INFO - Step 17100: Loss = 0.271083, Avg Loss = 0.264094
+2026-03-17 18:49:47,834 - utils - INFO - Epoch 54 completed. Average loss: 0.264256
+2026-03-17 18:49:47,932 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_54.pt
+2026-03-17 18:49:47,934 - utils - INFO - Generating 16 samples at step 17159...
+2026-03-17 18:49:48,118 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_17159.png
+2026-03-17 18:49:48,118 - utils - INFO - ==================================================
+2026-03-17 18:49:48,119 - utils - INFO - Epoch 55/100
+2026-03-17 18:49:49,102 - utils - INFO - Step 17200: Loss = 0.260088, Avg Loss = 0.264309
+2026-03-17 18:49:51,195 - utils - INFO - Step 17300: Loss = 0.275504, Avg Loss = 0.263551
+2026-03-17 18:49:53,203 - utils - INFO - Step 17400: Loss = 0.242830, Avg Loss = 0.265158
+2026-03-17 18:49:54,638 - utils - INFO - Epoch 55 completed. Average loss: 0.264674
+2026-03-17 18:49:54,731 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_55.pt
+2026-03-17 18:49:54,733 - utils - INFO - Generating 16 samples at step 17471...
+2026-03-17 18:49:54,894 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_17471.png
+2026-03-17 18:49:54,895 - utils - INFO - ==================================================
+2026-03-17 18:49:54,895 - utils - INFO - Epoch 56/100
+2026-03-17 18:49:55,589 - utils - INFO - Step 17500: Loss = 0.233606, Avg Loss = 0.265309
+2026-03-17 18:49:57,567 - utils - INFO - Step 17600: Loss = 0.308395, Avg Loss = 0.259101
+2026-03-17 18:49:59,553 - utils - INFO - Step 17700: Loss = 0.297829, Avg Loss = 0.260602
+2026-03-17 18:50:01,210 - utils - INFO - Epoch 56 completed. Average loss: 0.260551
+2026-03-17 18:50:01,301 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_56.pt
+2026-03-17 18:50:01,303 - utils - INFO - Generating 16 samples at step 17783...
+2026-03-17 18:50:01,472 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_17783.png
+2026-03-17 18:50:01,472 - utils - INFO - ==================================================
+2026-03-17 18:50:01,472 - utils - INFO - Epoch 57/100
+2026-03-17 18:50:01,925 - utils - INFO - Step 17800: Loss = 0.320007, Avg Loss = 0.262226
+2026-03-17 18:50:03,962 - utils - INFO - Step 17900: Loss = 0.286387, Avg Loss = 0.259059
+2026-03-17 18:50:05,949 - utils - INFO - Step 18000: Loss = 0.248607, Avg Loss = 0.259688
+2026-03-17 18:50:05,949 - utils - INFO - Starting evaluation at step 18000
+2026-03-17 18:50:05,950 - utils - INFO - Running validation...
+2026-03-17 18:50:06,322 - utils - INFO - Validation - Step 18000: Loss = 0.263151
+2026-03-17 18:50:08,218 - utils - INFO - Epoch 57 completed. Average loss: 0.260859
+2026-03-17 18:50:08,310 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_57.pt
+2026-03-17 18:50:08,312 - utils - INFO - Generating 16 samples at step 18095...
+2026-03-17 18:50:08,474 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_18095.png
+2026-03-17 18:50:08,474 - utils - INFO - ==================================================
+2026-03-17 18:50:08,475 - utils - INFO - Epoch 58/100
+2026-03-17 18:50:08,679 - utils - INFO - Step 18100: Loss = 0.259455, Avg Loss = 0.257193
+2026-03-17 18:50:10,743 - utils - INFO - Step 18200: Loss = 0.266050, Avg Loss = 0.262961
+2026-03-17 18:50:12,911 - utils - INFO - Step 18300: Loss = 0.289989, Avg Loss = 0.261799
+2026-03-17 18:50:15,005 - utils - INFO - Step 18400: Loss = 0.259609, Avg Loss = 0.261812
+2026-03-17 18:50:15,175 - utils - INFO - Epoch 58 completed. Average loss: 0.261463
+2026-03-17 18:50:15,268 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_58.pt
+2026-03-17 18:50:15,270 - utils - INFO - Generating 16 samples at step 18407...
+2026-03-17 18:50:15,435 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_18407.png
+2026-03-17 18:50:15,436 - utils - INFO - ==================================================
+2026-03-17 18:50:15,436 - utils - INFO - Epoch 59/100
+2026-03-17 18:50:17,441 - utils - INFO - Step 18500: Loss = 0.268760, Avg Loss = 0.261307
+2026-03-17 18:50:19,505 - utils - INFO - Step 18600: Loss = 0.267555, Avg Loss = 0.259658
+2026-03-17 18:50:21,644 - utils - INFO - Step 18700: Loss = 0.263941, Avg Loss = 0.258923
+2026-03-17 18:50:22,063 - utils - INFO - Epoch 59 completed. Average loss: 0.259298
+2026-03-17 18:50:22,156 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_59.pt
+2026-03-17 18:50:22,157 - utils - INFO - Generating 16 samples at step 18719...
+2026-03-17 18:50:22,320 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_18719.png
+2026-03-17 18:50:22,321 - utils - INFO - ==================================================
+2026-03-17 18:50:22,321 - utils - INFO - Epoch 60/100
+2026-03-17 18:50:24,115 - utils - INFO - Step 18800: Loss = 0.288965, Avg Loss = 0.251797
+2026-03-17 18:50:26,167 - utils - INFO - Step 18900: Loss = 0.293985, Avg Loss = 0.253726
+2026-03-17 18:50:28,215 - utils - INFO - Step 19000: Loss = 0.301425, Avg Loss = 0.256561
+2026-03-17 18:50:28,215 - utils - INFO - Starting evaluation at step 19000
+2026-03-17 18:50:28,216 - utils - INFO - Running validation...
+2026-03-17 18:50:28,582 - utils - INFO - Validation - Step 19000: Loss = 0.263208
+2026-03-17 18:50:29,238 - utils - INFO - Epoch 60 completed. Average loss: 0.256819
+2026-03-17 18:50:29,347 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_60.pt
+2026-03-17 18:50:29,349 - utils - INFO - Generating 16 samples at step 19031...
+2026-03-17 18:50:29,511 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_19031.png
+2026-03-17 18:50:29,511 - utils - INFO - ==================================================
+2026-03-17 18:50:29,512 - utils - INFO - Epoch 61/100
+2026-03-17 18:50:30,995 - utils - INFO - Step 19100: Loss = 0.278930, Avg Loss = 0.254561
+2026-03-17 18:50:33,009 - utils - INFO - Step 19200: Loss = 0.203654, Avg Loss = 0.256460
+2026-03-17 18:50:35,008 - utils - INFO - Step 19300: Loss = 0.367145, Avg Loss = 0.256081
+2026-03-17 18:50:35,869 - utils - INFO - Epoch 61 completed. Average loss: 0.256169
+2026-03-17 18:50:35,961 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_61.pt
+2026-03-17 18:50:35,963 - utils - INFO - Generating 16 samples at step 19343...
+2026-03-17 18:50:36,126 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_19343.png
+2026-03-17 18:50:36,127 - utils - INFO - ==================================================
+2026-03-17 18:50:36,127 - utils - INFO - Epoch 62/100
+2026-03-17 18:50:37,341 - utils - INFO - Step 19400: Loss = 0.249536, Avg Loss = 0.257022
+2026-03-17 18:50:39,335 - utils - INFO - Step 19500: Loss = 0.294406, Avg Loss = 0.257019
+2026-03-17 18:50:41,442 - utils - INFO - Step 19600: Loss = 0.209818, Avg Loss = 0.259744
+2026-03-17 18:50:42,550 - utils - INFO - Epoch 62 completed. Average loss: 0.259001
+2026-03-17 18:50:42,643 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_62.pt
+2026-03-17 18:50:42,645 - utils - INFO - Generating 16 samples at step 19655...
+2026-03-17 18:50:42,809 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_19655.png
+2026-03-17 18:50:42,809 - utils - INFO - ==================================================
+2026-03-17 18:50:42,810 - utils - INFO - Epoch 63/100
+2026-03-17 18:50:43,861 - utils - INFO - Step 19700: Loss = 0.261187, Avg Loss = 0.251859
+2026-03-17 18:50:45,924 - utils - INFO - Step 19800: Loss = 0.248318, Avg Loss = 0.253955
+2026-03-17 18:50:48,050 - utils - INFO - Step 19900: Loss = 0.268699, Avg Loss = 0.254348
+2026-03-17 18:50:49,434 - utils - INFO - Epoch 63 completed. Average loss: 0.254257
+2026-03-17 18:50:49,527 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_63.pt
+2026-03-17 18:50:49,529 - utils - INFO - Generating 16 samples at step 19967...
+2026-03-17 18:50:49,695 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_19967.png
+2026-03-17 18:50:49,695 - utils - INFO - ==================================================
+2026-03-17 18:50:49,695 - utils - INFO - Epoch 64/100
+2026-03-17 18:50:50,483 - utils - INFO - Step 20000: Loss = 0.254583, Avg Loss = 0.256898
+2026-03-17 18:50:50,484 - utils - INFO - Starting evaluation at step 20000
+2026-03-17 18:50:50,485 - utils - INFO - Running validation...
+2026-03-17 18:50:50,826 - utils - INFO - Validation - Step 20000: Loss = 0.257326
+2026-03-17 18:50:50,920 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_step_20000.pt
+2026-03-17 18:50:52,956 - utils - INFO - Step 20100: Loss = 0.240143, Avg Loss = 0.255058
+2026-03-17 18:50:54,975 - utils - INFO - Step 20200: Loss = 0.250293, Avg Loss = 0.252843
+2026-03-17 18:50:56,609 - utils - INFO - Epoch 64 completed. Average loss: 0.252280
+2026-03-17 18:50:56,704 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_64.pt
+2026-03-17 18:50:56,706 - utils - INFO - Generating 16 samples at step 20279...
+2026-03-17 18:50:56,870 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_20279.png
+2026-03-17 18:50:56,870 - utils - INFO - ==================================================
+2026-03-17 18:50:56,871 - utils - INFO - Epoch 65/100
+2026-03-17 18:50:57,410 - utils - INFO - Step 20300: Loss = 0.203155, Avg Loss = 0.244017
+2026-03-17 18:50:59,433 - utils - INFO - Step 20400: Loss = 0.200555, Avg Loss = 0.250641
+2026-03-17 18:51:01,454 - utils - INFO - Step 20500: Loss = 0.231041, Avg Loss = 0.252421
+2026-03-17 18:51:03,306 - utils - INFO - Epoch 65 completed. Average loss: 0.252413
+2026-03-17 18:51:03,400 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_65.pt
+2026-03-17 18:51:03,401 - utils - INFO - Generating 16 samples at step 20591...
+2026-03-17 18:51:03,567 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_20591.png
+2026-03-17 18:51:03,567 - utils - INFO - ==================================================
+2026-03-17 18:51:03,567 - utils - INFO - Epoch 66/100
+2026-03-17 18:51:03,848 - utils - INFO - Step 20600: Loss = 0.267988, Avg Loss = 0.256237
+2026-03-17 18:51:05,892 - utils - INFO - Step 20700: Loss = 0.234358, Avg Loss = 0.253138
+2026-03-17 18:51:07,947 - utils - INFO - Step 20800: Loss = 0.243131, Avg Loss = 0.251328
+2026-03-17 18:51:09,938 - utils - INFO - Step 20900: Loss = 0.254377, Avg Loss = 0.251796
+2026-03-17 18:51:10,020 - utils - INFO - Epoch 66 completed. Average loss: 0.251686
+2026-03-17 18:51:10,112 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_66.pt
+2026-03-17 18:51:10,114 - utils - INFO - Generating 16 samples at step 20903...
+2026-03-17 18:51:10,278 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_20903.png
+2026-03-17 18:51:10,278 - utils - INFO - ==================================================
+2026-03-17 18:51:10,279 - utils - INFO - Epoch 67/100
+2026-03-17 18:51:12,303 - utils - INFO - Step 21000: Loss = 0.205747, Avg Loss = 0.253299
+2026-03-17 18:51:12,304 - utils - INFO - Starting evaluation at step 21000
+2026-03-17 18:51:12,305 - utils - INFO - Running validation...
+2026-03-17 18:51:12,647 - utils - INFO - Validation - Step 21000: Loss = 0.252719
+2026-03-17 18:51:14,612 - utils - INFO - Step 21100: Loss = 0.232313, Avg Loss = 0.249563
+2026-03-17 18:51:16,702 - utils - INFO - Step 21200: Loss = 0.211398, Avg Loss = 0.250318
+2026-03-17 18:51:17,044 - utils - INFO - Epoch 67 completed. Average loss: 0.250174
+2026-03-17 18:51:17,146 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_67.pt
+2026-03-17 18:51:17,147 - utils - INFO - Generating 16 samples at step 21215...
+2026-03-17 18:51:17,311 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_21215.png
+2026-03-17 18:51:17,311 - utils - INFO - ==================================================
+2026-03-17 18:51:17,312 - utils - INFO - Epoch 68/100
+2026-03-17 18:51:19,196 - utils - INFO - Step 21300: Loss = 0.250334, Avg Loss = 0.245996
+2026-03-17 18:51:21,229 - utils - INFO - Step 21400: Loss = 0.260612, Avg Loss = 0.247588
+2026-03-17 18:51:23,227 - utils - INFO - Step 21500: Loss = 0.287052, Avg Loss = 0.247402
+2026-03-17 18:51:23,785 - utils - INFO - Epoch 68 completed. Average loss: 0.247963
+2026-03-17 18:51:23,877 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_68.pt
+2026-03-17 18:51:23,879 - utils - INFO - Generating 16 samples at step 21527...
+2026-03-17 18:51:24,044 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_21527.png
+2026-03-17 18:51:24,045 - utils - INFO - ==================================================
+2026-03-17 18:51:24,045 - utils - INFO - Epoch 69/100
+2026-03-17 18:51:25,585 - utils - INFO - Step 21600: Loss = 0.235529, Avg Loss = 0.253388
+2026-03-17 18:51:27,557 - utils - INFO - Step 21700: Loss = 0.208725, Avg Loss = 0.250126
+2026-03-17 18:51:29,521 - utils - INFO - Step 21800: Loss = 0.279806, Avg Loss = 0.249974
+2026-03-17 18:51:30,307 - utils - INFO - Epoch 69 completed. Average loss: 0.250293
+2026-03-17 18:51:30,400 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_69.pt
+2026-03-17 18:51:30,402 - utils - INFO - Generating 16 samples at step 21839...
+2026-03-17 18:51:30,567 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_21839.png
+2026-03-17 18:51:30,568 - utils - INFO - ==================================================
+2026-03-17 18:51:30,568 - utils - INFO - Epoch 70/100
+2026-03-17 18:51:31,918 - utils - INFO - Step 21900: Loss = 0.298045, Avg Loss = 0.247257
+2026-03-17 18:51:33,891 - utils - INFO - Step 22000: Loss = 0.238472, Avg Loss = 0.247747
+2026-03-17 18:51:33,891 - utils - INFO - Starting evaluation at step 22000
+2026-03-17 18:51:33,892 - utils - INFO - Running validation...
+2026-03-17 18:51:34,224 - utils - INFO - Validation - Step 22000: Loss = 0.251128
+2026-03-17 18:51:36,216 - utils - INFO - Step 22100: Loss = 0.235435, Avg Loss = 0.248657
+2026-03-17 18:51:37,244 - utils - INFO - Epoch 70 completed. Average loss: 0.248959
+2026-03-17 18:51:37,338 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_70.pt
+2026-03-17 18:51:37,340 - utils - INFO - Generating 16 samples at step 22151...
+2026-03-17 18:51:37,505 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_22151.png
+2026-03-17 18:51:37,506 - utils - INFO - ==================================================
+2026-03-17 18:51:37,506 - utils - INFO - Epoch 71/100
+2026-03-17 18:51:38,594 - utils - INFO - Step 22200: Loss = 0.279176, Avg Loss = 0.245762
+2026-03-17 18:51:40,623 - utils - INFO - Step 22300: Loss = 0.237914, Avg Loss = 0.245830
+2026-03-17 18:51:42,638 - utils - INFO - Step 22400: Loss = 0.243974, Avg Loss = 0.247334
+2026-03-17 18:51:43,904 - utils - INFO - Epoch 71 completed. Average loss: 0.247385
+2026-03-17 18:51:43,997 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_71.pt
+2026-03-17 18:51:43,999 - utils - INFO - Generating 16 samples at step 22463...
+2026-03-17 18:51:44,165 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_22463.png
+2026-03-17 18:51:44,165 - utils - INFO - ==================================================
+2026-03-17 18:51:44,165 - utils - INFO - Epoch 72/100
+2026-03-17 18:51:45,051 - utils - INFO - Step 22500: Loss = 0.266027, Avg Loss = 0.247979
+2026-03-17 18:51:47,172 - utils - INFO - Step 22600: Loss = 0.226994, Avg Loss = 0.247222
+2026-03-17 18:51:49,242 - utils - INFO - Step 22700: Loss = 0.252935, Avg Loss = 0.247931
+2026-03-17 18:51:50,764 - utils - INFO - Epoch 72 completed. Average loss: 0.247216
+2026-03-17 18:51:50,858 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_72.pt
+2026-03-17 18:51:50,860 - utils - INFO - Generating 16 samples at step 22775...
+2026-03-17 18:51:51,049 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_22775.png
+2026-03-17 18:51:51,049 - utils - INFO - ==================================================
+2026-03-17 18:51:51,050 - utils - INFO - Epoch 73/100
+2026-03-17 18:51:51,666 - utils - INFO - Step 22800: Loss = 0.251985, Avg Loss = 0.250937
+2026-03-17 18:51:53,650 - utils - INFO - Step 22900: Loss = 0.253839, Avg Loss = 0.245923
+2026-03-17 18:51:55,631 - utils - INFO - Step 23000: Loss = 0.265697, Avg Loss = 0.247765
+2026-03-17 18:51:55,631 - utils - INFO - Starting evaluation at step 23000
+2026-03-17 18:51:55,632 - utils - INFO - Running validation...
+2026-03-17 18:51:55,974 - utils - INFO - Validation - Step 23000: Loss = 0.250136
+2026-03-17 18:51:57,768 - utils - INFO - Epoch 73 completed. Average loss: 0.245924
+2026-03-17 18:51:57,865 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_73.pt
+2026-03-17 18:51:57,867 - utils - INFO - Generating 16 samples at step 23087...
+2026-03-17 18:51:58,033 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_23087.png
+2026-03-17 18:51:58,034 - utils - INFO - ==================================================
+2026-03-17 18:51:58,034 - utils - INFO - Epoch 74/100
+2026-03-17 18:51:58,395 - utils - INFO - Step 23100: Loss = 0.248911, Avg Loss = 0.244775
+2026-03-17 18:52:00,446 - utils - INFO - Step 23200: Loss = 0.252668, Avg Loss = 0.245920
+2026-03-17 18:52:02,463 - utils - INFO - Step 23300: Loss = 0.263842, Avg Loss = 0.245632
+2026-03-17 18:52:04,505 - utils - INFO - Epoch 74 completed. Average loss: 0.245180
+2026-03-17 18:52:04,601 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_74.pt
+2026-03-17 18:52:04,602 - utils - INFO - Generating 16 samples at step 23399...
+2026-03-17 18:52:04,769 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_23399.png
+2026-03-17 18:52:04,769 - utils - INFO - ==================================================
+2026-03-17 18:52:04,770 - utils - INFO - Epoch 75/100
+2026-03-17 18:52:04,890 - utils - INFO - Step 23400: Loss = 0.245238, Avg Loss = 0.245238
+2026-03-17 18:52:06,938 - utils - INFO - Step 23500: Loss = 0.242947, Avg Loss = 0.248712
+2026-03-17 18:52:08,993 - utils - INFO - Step 23600: Loss = 0.285978, Avg Loss = 0.246368
+2026-03-17 18:52:11,163 - utils - INFO - Step 23700: Loss = 0.289531, Avg Loss = 0.246641
+2026-03-17 18:52:11,418 - utils - INFO - Epoch 75 completed. Average loss: 0.246778
+2026-03-17 18:52:11,520 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_75.pt
+2026-03-17 18:52:11,522 - utils - INFO - Generating 16 samples at step 23711...
+2026-03-17 18:52:11,692 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_23711.png
+2026-03-17 18:52:11,692 - utils - INFO - ==================================================
+2026-03-17 18:52:11,692 - utils - INFO - Epoch 76/100
+2026-03-17 18:52:13,602 - utils - INFO - Step 23800: Loss = 0.216343, Avg Loss = 0.242979
+2026-03-17 18:52:15,609 - utils - INFO - Step 23900: Loss = 0.235198, Avg Loss = 0.243846
+2026-03-17 18:52:17,633 - utils - INFO - Step 24000: Loss = 0.237981, Avg Loss = 0.242304
+2026-03-17 18:52:17,633 - utils - INFO - Starting evaluation at step 24000
+2026-03-17 18:52:17,634 - utils - INFO - Running validation...
+2026-03-17 18:52:17,985 - utils - INFO - Validation - Step 24000: Loss = 0.243894
+2026-03-17 18:52:18,478 - utils - INFO - Epoch 76 completed. Average loss: 0.242463
+2026-03-17 18:52:18,579 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_76.pt
+2026-03-17 18:52:18,581 - utils - INFO - Generating 16 samples at step 24023...
+2026-03-17 18:52:18,754 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_24023.png
+2026-03-17 18:52:18,755 - utils - INFO - ==================================================
+2026-03-17 18:52:18,755 - utils - INFO - Epoch 77/100
+2026-03-17 18:52:20,562 - utils - INFO - Step 24100: Loss = 0.274705, Avg Loss = 0.252132
+2026-03-17 18:52:22,632 - utils - INFO - Step 24200: Loss = 0.241971, Avg Loss = 0.247593
+2026-03-17 18:52:24,623 - utils - INFO - Step 24300: Loss = 0.296605, Avg Loss = 0.244913
+2026-03-17 18:52:25,362 - utils - INFO - Epoch 77 completed. Average loss: 0.245106
+2026-03-17 18:52:25,455 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_77.pt
+2026-03-17 18:52:25,457 - utils - INFO - Generating 16 samples at step 24335...
+2026-03-17 18:52:25,622 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_24335.png
+2026-03-17 18:52:25,622 - utils - INFO - ==================================================
+2026-03-17 18:52:25,622 - utils - INFO - Epoch 78/100
+2026-03-17 18:52:27,116 - utils - INFO - Step 24400: Loss = 0.210356, Avg Loss = 0.245805
+2026-03-17 18:52:29,236 - utils - INFO - Step 24500: Loss = 0.223707, Avg Loss = 0.246331
+2026-03-17 18:52:31,278 - utils - INFO - Step 24600: Loss = 0.258985, Avg Loss = 0.244467
+2026-03-17 18:52:32,232 - utils - INFO - Epoch 78 completed. Average loss: 0.243300
+2026-03-17 18:52:32,325 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_78.pt
+2026-03-17 18:52:32,326 - utils - INFO - Generating 16 samples at step 24647...
+2026-03-17 18:52:32,489 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_24647.png
+2026-03-17 18:52:32,490 - utils - INFO - ==================================================
+2026-03-17 18:52:32,490 - utils - INFO - Epoch 79/100
+2026-03-17 18:52:33,686 - utils - INFO - Step 24700: Loss = 0.246186, Avg Loss = 0.239353
+2026-03-17 18:52:35,695 - utils - INFO - Step 24800: Loss = 0.261819, Avg Loss = 0.242570
+2026-03-17 18:52:37,689 - utils - INFO - Step 24900: Loss = 0.269174, Avg Loss = 0.243319
+2026-03-17 18:52:38,913 - utils - INFO - Epoch 79 completed. Average loss: 0.243153
+2026-03-17 18:52:39,024 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_79.pt
+2026-03-17 18:52:39,026 - utils - INFO - Generating 16 samples at step 24959...
+2026-03-17 18:52:39,190 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_24959.png
+2026-03-17 18:52:39,190 - utils - INFO - ==================================================
+2026-03-17 18:52:39,190 - utils - INFO - Epoch 80/100
+2026-03-17 18:52:40,130 - utils - INFO - Step 25000: Loss = 0.226884, Avg Loss = 0.235678
+2026-03-17 18:52:40,131 - utils - INFO - Starting evaluation at step 25000
+2026-03-17 18:52:40,132 - utils - INFO - Running validation...
+2026-03-17 18:52:40,482 - utils - INFO - Validation - Step 25000: Loss = 0.246980
+2026-03-17 18:52:40,606 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_step_25000.pt
+2026-03-17 18:52:42,743 - utils - INFO - Step 25100: Loss = 0.272869, Avg Loss = 0.240911
+2026-03-17 18:52:44,767 - utils - INFO - Step 25200: Loss = 0.233065, Avg Loss = 0.240633
+2026-03-17 18:52:46,227 - utils - INFO - Epoch 80 completed. Average loss: 0.240984
+2026-03-17 18:52:46,328 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_80.pt
+2026-03-17 18:52:46,330 - utils - INFO - Generating 16 samples at step 25271...
+2026-03-17 18:52:46,501 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_25271.png
+2026-03-17 18:52:46,502 - utils - INFO - ==================================================
+2026-03-17 18:52:46,502 - utils - INFO - Epoch 81/100
+2026-03-17 18:52:47,206 - utils - INFO - Step 25300: Loss = 0.214279, Avg Loss = 0.243371
+2026-03-17 18:52:49,204 - utils - INFO - Step 25400: Loss = 0.265526, Avg Loss = 0.241622
+2026-03-17 18:52:51,207 - utils - INFO - Step 25500: Loss = 0.223196, Avg Loss = 0.242629
+2026-03-17 18:52:52,920 - utils - INFO - Epoch 81 completed. Average loss: 0.240328
+2026-03-17 18:52:53,016 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_81.pt
+2026-03-17 18:52:53,018 - utils - INFO - Generating 16 samples at step 25583...
+2026-03-17 18:52:53,194 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_25583.png
+2026-03-17 18:52:53,195 - utils - INFO - ==================================================
+2026-03-17 18:52:53,195 - utils - INFO - Epoch 82/100
+2026-03-17 18:52:53,657 - utils - INFO - Step 25600: Loss = 0.230956, Avg Loss = 0.237005
+2026-03-17 18:52:55,661 - utils - INFO - Step 25700: Loss = 0.249649, Avg Loss = 0.241506
+2026-03-17 18:52:57,759 - utils - INFO - Step 25800: Loss = 0.233498, Avg Loss = 0.241747
+2026-03-17 18:52:59,742 - utils - INFO - Epoch 82 completed. Average loss: 0.242337
+2026-03-17 18:52:59,835 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_82.pt
+2026-03-17 18:52:59,836 - utils - INFO - Generating 16 samples at step 25895...
+2026-03-17 18:53:00,002 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_25895.png
+2026-03-17 18:53:00,002 - utils - INFO - ==================================================
+2026-03-17 18:53:00,002 - utils - INFO - Epoch 83/100
+2026-03-17 18:53:00,209 - utils - INFO - Step 25900: Loss = 0.214740, Avg Loss = 0.220061
+2026-03-17 18:53:02,223 - utils - INFO - Step 26000: Loss = 0.241087, Avg Loss = 0.239565
+2026-03-17 18:53:02,224 - utils - INFO - Starting evaluation at step 26000
+2026-03-17 18:53:02,224 - utils - INFO - Running validation...
+2026-03-17 18:53:02,571 - utils - INFO - Validation - Step 26000: Loss = 0.247736
+2026-03-17 18:53:04,660 - utils - INFO - Step 26100: Loss = 0.237793, Avg Loss = 0.242548
+2026-03-17 18:53:06,728 - utils - INFO - Step 26200: Loss = 0.274305, Avg Loss = 0.240838
+2026-03-17 18:53:06,892 - utils - INFO - Epoch 83 completed. Average loss: 0.240964
+2026-03-17 18:53:06,985 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_83.pt
+2026-03-17 18:53:06,987 - utils - INFO - Generating 16 samples at step 26207...
+2026-03-17 18:53:07,152 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_26207.png
+2026-03-17 18:53:07,152 - utils - INFO - ==================================================
+2026-03-17 18:53:07,153 - utils - INFO - Epoch 84/100
+2026-03-17 18:53:09,154 - utils - INFO - Step 26300: Loss = 0.205970, Avg Loss = 0.240367
+2026-03-17 18:53:11,204 - utils - INFO - Step 26400: Loss = 0.232759, Avg Loss = 0.241245
+2026-03-17 18:53:13,325 - utils - INFO - Step 26500: Loss = 0.239018, Avg Loss = 0.240218
+2026-03-17 18:53:13,735 - utils - INFO - Epoch 84 completed. Average loss: 0.240154
+2026-03-17 18:53:13,829 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_84.pt
+2026-03-17 18:53:13,830 - utils - INFO - Generating 16 samples at step 26519...
+2026-03-17 18:53:13,996 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_26519.png
+2026-03-17 18:53:13,997 - utils - INFO - ==================================================
+2026-03-17 18:53:13,997 - utils - INFO - Epoch 85/100
+2026-03-17 18:53:15,854 - utils - INFO - Step 26600: Loss = 0.176730, Avg Loss = 0.235476
+2026-03-17 18:53:17,873 - utils - INFO - Step 26700: Loss = 0.225447, Avg Loss = 0.237669
+2026-03-17 18:53:19,985 - utils - INFO - Step 26800: Loss = 0.225324, Avg Loss = 0.237988
+2026-03-17 18:53:20,686 - utils - INFO - Epoch 85 completed. Average loss: 0.239765
+2026-03-17 18:53:20,785 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_85.pt
+2026-03-17 18:53:20,787 - utils - INFO - Generating 16 samples at step 26831...
+2026-03-17 18:53:20,957 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_26831.png
+2026-03-17 18:53:20,957 - utils - INFO - ==================================================
+2026-03-17 18:53:20,958 - utils - INFO - Epoch 86/100
+2026-03-17 18:53:22,519 - utils - INFO - Step 26900: Loss = 0.259881, Avg Loss = 0.244964
+2026-03-17 18:53:24,655 - utils - INFO - Step 27000: Loss = 0.225072, Avg Loss = 0.243311
+2026-03-17 18:53:24,656 - utils - INFO - Starting evaluation at step 27000
+2026-03-17 18:53:24,657 - utils - INFO - Running validation...
+2026-03-17 18:53:25,000 - utils - INFO - Validation - Step 27000: Loss = 0.239594
+2026-03-17 18:53:27,171 - utils - INFO - Step 27100: Loss = 0.222131, Avg Loss = 0.242281
+2026-03-17 18:53:28,112 - utils - INFO - Epoch 86 completed. Average loss: 0.242713
+2026-03-17 18:53:28,205 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_86.pt
+2026-03-17 18:53:28,207 - utils - INFO - Generating 16 samples at step 27143...
+2026-03-17 18:53:28,372 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_27143.png
+2026-03-17 18:53:28,372 - utils - INFO - ==================================================
+2026-03-17 18:53:28,373 - utils - INFO - Epoch 87/100
+2026-03-17 18:53:29,695 - utils - INFO - Step 27200: Loss = 0.226702, Avg Loss = 0.232406
+2026-03-17 18:53:31,806 - utils - INFO - Step 27300: Loss = 0.249116, Avg Loss = 0.235439
+2026-03-17 18:53:33,952 - utils - INFO - Step 27400: Loss = 0.274930, Avg Loss = 0.237183
+2026-03-17 18:53:35,132 - utils - INFO - Epoch 87 completed. Average loss: 0.237498
+2026-03-17 18:53:35,227 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_87.pt
+2026-03-17 18:53:35,228 - utils - INFO - Generating 16 samples at step 27455...
+2026-03-17 18:53:35,398 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_27455.png
+2026-03-17 18:53:35,398 - utils - INFO - ==================================================
+2026-03-17 18:53:35,398 - utils - INFO - Epoch 88/100
+2026-03-17 18:53:36,446 - utils - INFO - Step 27500: Loss = 0.218322, Avg Loss = 0.234028
+2026-03-17 18:53:38,525 - utils - INFO - Step 27600: Loss = 0.325431, Avg Loss = 0.236264
+2026-03-17 18:53:40,616 - utils - INFO - Step 27700: Loss = 0.217617, Avg Loss = 0.238841
+2026-03-17 18:53:42,020 - utils - INFO - Epoch 88 completed. Average loss: 0.237874
+2026-03-17 18:53:42,114 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_88.pt
+2026-03-17 18:53:42,115 - utils - INFO - Generating 16 samples at step 27767...
+2026-03-17 18:53:42,281 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_27767.png
+2026-03-17 18:53:42,282 - utils - INFO - ==================================================
+2026-03-17 18:53:42,282 - utils - INFO - Epoch 89/100
+2026-03-17 18:53:43,050 - utils - INFO - Step 27800: Loss = 0.224803, Avg Loss = 0.232995
+2026-03-17 18:53:45,136 - utils - INFO - Step 27900: Loss = 0.309690, Avg Loss = 0.239146
+2026-03-17 18:53:47,267 - utils - INFO - Step 28000: Loss = 0.225803, Avg Loss = 0.240004
+2026-03-17 18:53:47,268 - utils - INFO - Starting evaluation at step 28000
+2026-03-17 18:53:47,269 - utils - INFO - Running validation...
+2026-03-17 18:53:47,625 - utils - INFO - Validation - Step 28000: Loss = 0.233891
+2026-03-17 18:53:49,349 - utils - INFO - Epoch 89 completed. Average loss: 0.239959
+2026-03-17 18:53:49,454 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_89.pt
+2026-03-17 18:53:49,458 - utils - INFO - Generating 16 samples at step 28079...
+2026-03-17 18:53:49,638 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_28079.png
+2026-03-17 18:53:49,638 - utils - INFO - ==================================================
+2026-03-17 18:53:49,639 - utils - INFO - Epoch 90/100
+2026-03-17 18:53:50,191 - utils - INFO - Step 28100: Loss = 0.233586, Avg Loss = 0.237433
+2026-03-17 18:53:52,260 - utils - INFO - Step 28200: Loss = 0.291776, Avg Loss = 0.238201
+2026-03-17 18:53:54,420 - utils - INFO - Step 28300: Loss = 0.253563, Avg Loss = 0.239394
+2026-03-17 18:53:56,320 - utils - INFO - Epoch 90 completed. Average loss: 0.237504
+2026-03-17 18:53:56,419 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_90.pt
+2026-03-17 18:53:56,421 - utils - INFO - Generating 16 samples at step 28391...
+2026-03-17 18:53:56,590 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_28391.png
+2026-03-17 18:53:56,591 - utils - INFO - ==================================================
+2026-03-17 18:53:56,591 - utils - INFO - Epoch 91/100
+2026-03-17 18:53:56,911 - utils - INFO - Step 28400: Loss = 0.170717, Avg Loss = 0.222882
+2026-03-17 18:53:59,008 - utils - INFO - Step 28500: Loss = 0.209438, Avg Loss = 0.235715
+2026-03-17 18:54:01,119 - utils - INFO - Step 28600: Loss = 0.238372, Avg Loss = 0.238395
+2026-03-17 18:54:03,208 - utils - INFO - Step 28700: Loss = 0.274969, Avg Loss = 0.238645
+2026-03-17 18:54:03,293 - utils - INFO - Epoch 91 completed. Average loss: 0.238786
+2026-03-17 18:54:03,387 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_91.pt
+2026-03-17 18:54:03,389 - utils - INFO - Generating 16 samples at step 28703...
+2026-03-17 18:54:03,555 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_28703.png
+2026-03-17 18:54:03,555 - utils - INFO - ==================================================
+2026-03-17 18:54:03,556 - utils - INFO - Epoch 92/100
+2026-03-17 18:54:05,709 - utils - INFO - Step 28800: Loss = 0.261206, Avg Loss = 0.235739
+2026-03-17 18:54:07,766 - utils - INFO - Step 28900: Loss = 0.258259, Avg Loss = 0.237586
+2026-03-17 18:54:09,903 - utils - INFO - Step 29000: Loss = 0.211693, Avg Loss = 0.237445
+2026-03-17 18:54:09,903 - utils - INFO - Starting evaluation at step 29000
+2026-03-17 18:54:09,904 - utils - INFO - Running validation...
+2026-03-17 18:54:10,257 - utils - INFO - Validation - Step 29000: Loss = 0.239349
+2026-03-17 18:54:10,588 - utils - INFO - Epoch 92 completed. Average loss: 0.237380
+2026-03-17 18:54:10,683 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_92.pt
+2026-03-17 18:54:10,685 - utils - INFO - Generating 16 samples at step 29015...
+2026-03-17 18:54:10,856 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_29015.png
+2026-03-17 18:54:10,857 - utils - INFO - ==================================================
+2026-03-17 18:54:10,857 - utils - INFO - Epoch 93/100
+2026-03-17 18:54:12,799 - utils - INFO - Step 29100: Loss = 0.273485, Avg Loss = 0.243353
+2026-03-17 18:54:14,888 - utils - INFO - Step 29200: Loss = 0.271587, Avg Loss = 0.240493
+2026-03-17 18:54:16,943 - utils - INFO - Step 29300: Loss = 0.207137, Avg Loss = 0.239280
+2026-03-17 18:54:17,519 - utils - INFO - Epoch 93 completed. Average loss: 0.238802
+2026-03-17 18:54:17,613 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_93.pt
+2026-03-17 18:54:17,616 - utils - INFO - Generating 16 samples at step 29327...
+2026-03-17 18:54:17,783 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_29327.png
+2026-03-17 18:54:17,784 - utils - INFO - ==================================================
+2026-03-17 18:54:17,784 - utils - INFO - Epoch 94/100
+2026-03-17 18:54:19,386 - utils - INFO - Step 29400: Loss = 0.186458, Avg Loss = 0.237742
+2026-03-17 18:54:21,494 - utils - INFO - Step 29500: Loss = 0.275936, Avg Loss = 0.235739
+2026-03-17 18:54:23,652 - utils - INFO - Step 29600: Loss = 0.248718, Avg Loss = 0.237279
+2026-03-17 18:54:24,519 - utils - INFO - Epoch 94 completed. Average loss: 0.237042
+2026-03-17 18:54:24,613 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_94.pt
+2026-03-17 18:54:24,614 - utils - INFO - Generating 16 samples at step 29639...
+2026-03-17 18:54:24,781 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_29639.png
+2026-03-17 18:54:24,782 - utils - INFO - ==================================================
+2026-03-17 18:54:24,782 - utils - INFO - Epoch 95/100
+2026-03-17 18:54:26,198 - utils - INFO - Step 29700: Loss = 0.212727, Avg Loss = 0.238322
+2026-03-17 18:54:28,313 - utils - INFO - Step 29800: Loss = 0.208857, Avg Loss = 0.238134
+2026-03-17 18:54:30,468 - utils - INFO - Step 29900: Loss = 0.247969, Avg Loss = 0.237998
+2026-03-17 18:54:31,601 - utils - INFO - Epoch 95 completed. Average loss: 0.239546
+2026-03-17 18:54:31,695 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_95.pt
+2026-03-17 18:54:31,697 - utils - INFO - Generating 16 samples at step 29951...
+2026-03-17 18:54:31,864 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_29951.png
+2026-03-17 18:54:31,865 - utils - INFO - ==================================================
+2026-03-17 18:54:31,865 - utils - INFO - Epoch 96/100
+2026-03-17 18:54:33,036 - utils - INFO - Step 30000: Loss = 0.219996, Avg Loss = 0.237296
+2026-03-17 18:54:33,037 - utils - INFO - Starting evaluation at step 30000
+2026-03-17 18:54:33,038 - utils - INFO - Running validation...
+2026-03-17 18:54:33,415 - utils - INFO - Validation - Step 30000: Loss = 0.230424
+2026-03-17 18:54:33,536 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_step_30000.pt
+2026-03-17 18:54:35,706 - utils - INFO - Step 30100: Loss = 0.244931, Avg Loss = 0.239510
+2026-03-17 18:54:37,839 - utils - INFO - Step 30200: Loss = 0.203449, Avg Loss = 0.237784
+2026-03-17 18:54:39,257 - utils - INFO - Epoch 96 completed. Average loss: 0.237945
+2026-03-17 18:54:39,355 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_96.pt
+2026-03-17 18:54:39,357 - utils - INFO - Generating 16 samples at step 30263...
+2026-03-17 18:54:39,524 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_30263.png
+2026-03-17 18:54:39,525 - utils - INFO - ==================================================
+2026-03-17 18:54:39,525 - utils - INFO - Epoch 97/100
+2026-03-17 18:54:40,435 - utils - INFO - Step 30300: Loss = 0.201804, Avg Loss = 0.236414
+2026-03-17 18:54:42,625 - utils - INFO - Step 30400: Loss = 0.269525, Avg Loss = 0.239108
+2026-03-17 18:54:44,802 - utils - INFO - Step 30500: Loss = 0.227187, Avg Loss = 0.237325
+2026-03-17 18:54:46,471 - utils - INFO - Epoch 97 completed. Average loss: 0.237269
+2026-03-17 18:54:46,565 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_97.pt
+2026-03-17 18:54:46,567 - utils - INFO - Generating 16 samples at step 30575...
+2026-03-17 18:54:46,734 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_30575.png
+2026-03-17 18:54:46,734 - utils - INFO - ==================================================
+2026-03-17 18:54:46,734 - utils - INFO - Epoch 98/100
+2026-03-17 18:54:47,401 - utils - INFO - Step 30600: Loss = 0.233631, Avg Loss = 0.238629
+2026-03-17 18:54:49,667 - utils - INFO - Step 30700: Loss = 0.207679, Avg Loss = 0.235896
+2026-03-17 18:54:51,824 - utils - INFO - Step 30800: Loss = 0.196162, Avg Loss = 0.236834
+2026-03-17 18:54:53,786 - utils - INFO - Epoch 98 completed. Average loss: 0.238222
+2026-03-17 18:54:53,896 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_98.pt
+2026-03-17 18:54:53,897 - utils - INFO - Generating 16 samples at step 30887...
+2026-03-17 18:54:54,062 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_30887.png
+2026-03-17 18:54:54,063 - utils - INFO - ==================================================
+2026-03-17 18:54:54,063 - utils - INFO - Epoch 99/100
+2026-03-17 18:54:54,446 - utils - INFO - Step 30900: Loss = 0.247703, Avg Loss = 0.240130
+2026-03-17 18:54:56,700 - utils - INFO - Step 31000: Loss = 0.223279, Avg Loss = 0.239557
+2026-03-17 18:54:56,701 - utils - INFO - Starting evaluation at step 31000
+2026-03-17 18:54:56,701 - utils - INFO - Running validation...
+2026-03-17 18:54:57,092 - utils - INFO - Validation - Step 31000: Loss = 0.233019
+2026-03-17 18:54:59,290 - utils - INFO - Step 31100: Loss = 0.254239, Avg Loss = 0.238897
+2026-03-17 18:55:01,433 - utils - INFO - Epoch 99 completed. Average loss: 0.239125
+2026-03-17 18:55:01,531 - utils - INFO - Saved checkpoint: ./checkpoints/checkpoint_epoch_99.pt
+2026-03-17 18:55:01,532 - utils - INFO - Generating 16 samples at step 31199...
+2026-03-17 18:55:01,707 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_31199.png
+2026-03-17 18:55:01,708 - utils - INFO - Running final evaluation...
+2026-03-17 18:55:01,709 - utils - INFO - Running validation...
+2026-03-17 18:55:02,012 - utils - INFO - Validation - Step 31199: Loss = 0.257546
+2026-03-17 18:55:02,012 - utils - INFO - Generating final samples...
+2026-03-17 18:55:02,013 - utils - INFO - Generating 64 samples at step 31199...
+2026-03-17 18:55:02,213 - utils - INFO - Saved samples to ./checkpoints/samples/samples_step_31199.png
+2026-03-17 18:55:02,308 - utils - INFO - Saved final model: ./checkpoints/final_model.pt
+2026-03-17 18:55:02,309 - utils - INFO - Training completed!

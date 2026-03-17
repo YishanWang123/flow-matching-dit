@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Data directories
+data/
+imagenet_subset/
+
+# Checkpoints and models
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# WandB
+wandb/
+*.log
+
+# Generated samples
+samples/
+*.png
+*.jpg
+*.jpeg
+
+# System files
+.DS_Store
+Thumbs.db
